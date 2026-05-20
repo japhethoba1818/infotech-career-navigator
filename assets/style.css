@@ -1,0 +1,103 @@
+/* ── Global ───────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ── Hide Streamlit chrome ────────────────────────────────────────────────── */
+#MainMenu, footer, header { visibility: hidden; }
+.block-container { padding-top: 2rem; padding-bottom: 2rem; }
+
+/* ── Hero heading ─────────────────────────────────────────────────────────── */
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* ── Cards ────────────────────────────────────────────────────────────────── */
+.card {
+    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    border: 1px solid #e0e7ff;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
+}
+
+.career-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.career-card h3 { color: white; margin: 0 0 0.5rem 0; font-size: 1.3rem; }
+.career-card p  { color: rgba(255,255,255,0.88); margin: 0; font-size: 0.95rem; }
+
+/* ── Progress indicator ───────────────────────────────────────────────────── */
+.step-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 2rem;
+}
+
+.step-dot {
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #e0e7ff;
+}
+
+.step-dot.active  { background: #667eea; }
+.step-dot.done    { background: #764ba2; }
+
+/* ── Primary button override ──────────────────────────────────────────────── */
+.stButton > button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.65rem 2rem !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    transition: transform 0.15s ease, box-shadow 0.15s ease !important;
+    width: 100%;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4) !important;
+}
+
+/* ── Motivational tag ─────────────────────────────────────────────────────── */
+.tag {
+    display: inline-block;
+    background: #ede9fe;
+    color: #7c3aed;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* ── Mobile ───────────────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+    .hero-title { font-size: 2rem; }
+}
