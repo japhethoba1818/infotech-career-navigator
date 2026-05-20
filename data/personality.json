@@ -1,0 +1,148 @@
+{
+  "personality_types": {
+    "ANL": "Analytical",
+    "LDR": "Leadership",
+    "CRE": "Creative",
+    "HLP": "Helping & Caring",
+    "TEC": "Technical",
+    "ENT": "Entrepreneurial"
+  },
+  "type_descriptions": {
+    "ANL": "You love solving problems, working with data, and thinking deeply before acting.",
+    "LDR": "You are natural at guiding people, making decisions, and taking responsibility.",
+    "CRE": "You think outside the box, express yourself boldly, and imagine new possibilities.",
+    "HLP": "You are driven by purpose, care deeply about people, and want to make a difference.",
+    "TEC": "You enjoy building, fixing, and understanding how systems and technology work.",
+    "ENT": "You are ambitious, spot opportunities others miss, and love the idea of building something of your own."
+  },
+  "type_icons": {
+    "ANL": "🔍",
+    "LDR": "🏆",
+    "CRE": "🎨",
+    "HLP": "❤️",
+    "TEC": "⚙️",
+    "ENT": "🚀"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "When you have free time, what do you enjoy most?",
+      "options": [
+        { "text": "Solving puzzles, riddles, or brain teasers", "scores": {"ANL": 2} },
+        { "text": "Organising activities or events for people", "scores": {"LDR": 2} },
+        { "text": "Drawing, writing stories, or making things", "scores": {"CRE": 2} },
+        { "text": "Helping someone who is struggling", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "In a group project at school, you naturally become...",
+      "options": [
+        { "text": "The researcher who finds and analyses all the facts", "scores": {"ANL": 2} },
+        { "text": "The leader who organises and assigns tasks", "scores": {"LDR": 2} },
+        { "text": "The designer who makes the presentation look great", "scores": {"CRE": 2} },
+        { "text": "The motivator who keeps the team's spirits up", "scores": {"HLP": 1, "LDR": 1} }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of these sounds the most exciting to you?",
+      "options": [
+        { "text": "Building an app, website, or fixing computers", "scores": {"TEC": 2} },
+        { "text": "Starting your own business and being your own boss", "scores": {"ENT": 2} },
+        { "text": "Discovering how the human body or nature works", "scores": {"ANL": 1, "HLP": 1} },
+        { "text": "Teaching and mentoring young people in your community", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When you face a difficult problem, you...",
+      "options": [
+        { "text": "Break it into smaller parts and analyse each one", "scores": {"ANL": 2} },
+        { "text": "Look for a creative solution no one has tried before", "scores": {"CRE": 2} },
+        { "text": "Gather people together and lead the discussion", "scores": {"LDR": 2} },
+        { "text": "Think about who the solution will help the most", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Your dream job would involve...",
+      "options": [
+        { "text": "Working with computers, machines, or technology daily", "scores": {"TEC": 2} },
+        { "text": "Leading a big team or running an organisation", "scores": {"LDR": 2} },
+        { "text": "Creating art, music, films, or digital designs", "scores": {"CRE": 2} },
+        { "text": "Building a business from nothing and growing it", "scores": {"ENT": 2} }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Your friends would most likely describe you as...",
+      "options": [
+        { "text": "Smart, logical, and always thinking", "scores": {"ANL": 2} },
+        { "text": "A natural-born leader everyone follows", "scores": {"LDR": 2} },
+        { "text": "Creative, imaginative, and full of ideas", "scores": {"CRE": 2} },
+        { "text": "Kind, warm-hearted, and always there for others", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "In 10 years, you see yourself...",
+      "options": [
+        { "text": "Running your own successful company", "scores": {"ENT": 2} },
+        { "text": "Working in a hospital, school, or non-profit", "scores": {"HLP": 2} },
+        { "text": "Designing or building cutting-edge technology", "scores": {"TEC": 2} },
+        { "text": "In a senior role making decisions that affect many people", "scores": {"LDR": 2} }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "When you watch YouTube or TV, you mostly choose...",
+      "options": [
+        { "text": "Tech reviews, science shows, or coding tutorials", "scores": {"TEC": 2, "ANL": 1} },
+        { "text": "Business stories, motivational speakers, or entrepreneurs", "scores": {"ENT": 2, "LDR": 1} },
+        { "text": "Art, fashion, music videos, or creative content", "scores": {"CRE": 2} },
+        { "text": "Documentaries about people, health, or society", "scores": {"HLP": 1, "ANL": 1} }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which achievement would make you the proudest?",
+      "options": [
+        { "text": "Inventing something that changes how the world works", "scores": {"TEC": 2, "ANL": 1} },
+        { "text": "Being elected as a respected community leader", "scores": {"LDR": 2} },
+        { "text": "Having your creative work known and loved worldwide", "scores": {"CRE": 2} },
+        { "text": "Helping someone who had absolutely no other hope", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When a friend comes to you with a serious problem, you...",
+      "options": [
+        { "text": "Help them think through it carefully, step by step", "scores": {"ANL": 2} },
+        { "text": "Take charge and help organise a practical solution", "scores": {"LDR": 2} },
+        { "text": "Think of a creative way to cheer them up or reframe it", "scores": {"CRE": 1, "HLP": 1} },
+        { "text": "Listen deeply and offer emotional support", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which type of business would you most want to own one day?",
+      "options": [
+        { "text": "A tech startup building apps or smart systems", "scores": {"TEC": 2, "ENT": 1} },
+        { "text": "A consulting firm helping other businesses succeed", "scores": {"ENT": 2, "LDR": 1} },
+        { "text": "A creative agency doing design, media, or content", "scores": {"CRE": 2, "ENT": 1} },
+        { "text": "A clinic, school, or social enterprise helping people", "scores": {"HLP": 2} }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Pick the sentence that sounds most like you:",
+      "options": [
+        { "text": "I love understanding exactly how and why things work", "scores": {"ANL": 2, "TEC": 1} },
+        { "text": "I believe I have what it takes to lead and inspire people", "scores": {"LDR": 2, "ENT": 1} },
+        { "text": "I see beauty and possibility in things others overlook", "scores": {"CRE": 2} },
+        { "text": "Making a real difference in someone's life is my greatest goal", "scores": {"HLP": 2} }
+      ]
+    }
+  ]
+}
