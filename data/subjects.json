@@ -1,0 +1,29 @@
+{
+  "subjects": [
+    { "name": "Mathematics", "code": "MATH", "category": "core" },
+    { "name": "Mathematical Literacy", "code": "MATLIT", "category": "core" },
+    { "name": "English Home Language", "code": "ENG_HL", "category": "language" },
+    { "name": "English First Additional Language", "code": "ENG_FAL", "category": "language" },
+    { "name": "Afrikaans Home Language", "code": "AFR_HL", "category": "language" },
+    { "name": "Afrikaans First Additional Language", "code": "AFR_FAL", "category": "language" },
+    { "name": "IsiZulu Home Language", "code": "ZUL_HL", "category": "language" },
+    { "name": "IsiXhosa Home Language", "code": "XHO_HL", "category": "language" },
+    { "name": "Sepedi Home Language", "code": "NSO_HL", "category": "language" },
+    { "name": "Physical Sciences", "code": "PHY_SCI", "category": "science" },
+    { "name": "Life Sciences", "code": "LIFE_SCI", "category": "science" },
+    { "name": "Agricultural Sciences", "code": "AGR_SCI", "category": "science" },
+    { "name": "Accounting", "code": "ACC", "category": "commerce" },
+    { "name": "Business Studies", "code": "BUS_STU", "category": "commerce" },
+    { "name": "Economics", "code": "ECON", "category": "commerce" },
+    { "name": "Geography", "code": "GEO", "category": "humanities" },
+    { "name": "History", "code": "HIST", "category": "humanities" },
+    { "name": "Consumer Studies", "code": "CON_STU", "category": "humanities" },
+    { "name": "Information Technology (IT)", "code": "IT", "category": "technology" },
+    { "name": "Computer Applications Technology (CAT)", "code": "CAT", "category": "technology" },
+    { "name": "Engineering Graphics & Design (EGD)", "code": "EGD", "category": "technology" },
+    { "name": "Visual Arts", "code": "VIS_ARTS", "category": "arts" },
+    { "name": "Dramatic Arts", "code": "DRAM", "category": "arts" },
+    { "name": "Music", "code": "MUSIC", "category": "arts" },
+    { "name": "Life Orientation", "code": "LO", "category": "compulsory" }
+  ]
+}
