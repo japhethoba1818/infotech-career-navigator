@@ -1,0 +1,279 @@
+{
+  "careers": [
+    {
+      "id": "medical_doctor",
+      "title": "Medical Doctor",
+      "icon": "🏥",
+      "tagline": "Heal people. Save lives. Lead in healthcare.",
+      "description": "Medical doctors diagnose and treat illnesses, working in hospitals, clinics and communities to improve health outcomes across South Africa.",
+      "required_subjects": ["MATH", "PHY_SCI", "LIFE_SCI"],
+      "preferred_subjects": ["ENG_HL", "ENG_FAL"],
+      "min_aps": 36,
+      "personality_match": {"ANL": 3, "HLP": 3, "LDR": 1, "TEC": 1, "CRE": 0, "ENT": 0}
+    },
+    {
+      "id": "software_engineer",
+      "title": "Software Engineer",
+      "icon": "💻",
+      "tagline": "Build the apps and systems that power the world.",
+      "description": "Software engineers design, build and maintain applications, websites and systems. One of the fastest-growing and highest-paying careers globally.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["IT", "CAT", "PHY_SCI", "ENG_HL"],
+      "min_aps": 28,
+      "personality_match": {"TEC": 3, "ANL": 3, "CRE": 1, "ENT": 1, "LDR": 0, "HLP": 0}
+    },
+    {
+      "id": "electrical_engineer",
+      "title": "Electrical Engineer",
+      "icon": "⚡",
+      "tagline": "Power cities, design smart systems, shape infrastructure.",
+      "description": "Electrical engineers design and develop electrical systems, from power grids to electronics and telecommunications networks.",
+      "required_subjects": ["MATH", "PHY_SCI"],
+      "preferred_subjects": ["EGD", "IT", "CAT"],
+      "min_aps": 30,
+      "personality_match": {"TEC": 3, "ANL": 3, "LDR": 1, "CRE": 1, "HLP": 0, "ENT": 0}
+    },
+    {
+      "id": "civil_engineer",
+      "title": "Civil Engineer",
+      "icon": "🏗️",
+      "tagline": "Design bridges, roads and buildings that last centuries.",
+      "description": "Civil engineers plan and oversee construction of infrastructure — roads, dams, bridges and buildings that communities depend on every day.",
+      "required_subjects": ["MATH", "PHY_SCI"],
+      "preferred_subjects": ["EGD", "GEO"],
+      "min_aps": 30,
+      "personality_match": {"TEC": 3, "ANL": 2, "LDR": 2, "CRE": 1, "HLP": 0, "ENT": 0}
+    },
+    {
+      "id": "chartered_accountant",
+      "title": "Chartered Accountant (CA)",
+      "icon": "📊",
+      "tagline": "Master numbers. Drive business decisions.",
+      "description": "Chartered Accountants manage financial records, audits and business strategy. The CA(SA) qualification is one of the most respected in Africa.",
+      "required_subjects": ["MATH", "ACC"],
+      "preferred_subjects": ["BUS_STU", "ECON", "ENG_HL"],
+      "min_aps": 30,
+      "personality_match": {"ANL": 3, "ENT": 2, "LDR": 2, "TEC": 1, "HLP": 0, "CRE": 0}
+    },
+    {
+      "id": "data_scientist",
+      "title": "Data Scientist",
+      "icon": "📈",
+      "tagline": "Find hidden patterns in data that change decisions.",
+      "description": "Data scientists analyse complex datasets to help organisations make smarter decisions. One of the most in-demand roles of the 21st century.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["IT", "CAT", "PHY_SCI", "ECON"],
+      "min_aps": 28,
+      "personality_match": {"ANL": 3, "TEC": 3, "CRE": 1, "ENT": 1, "HLP": 0, "LDR": 0}
+    },
+    {
+      "id": "nurse",
+      "title": "Professional Nurse",
+      "icon": "💉",
+      "tagline": "Be the heartbeat of healthcare in your community.",
+      "description": "Nurses provide direct patient care, administer treatment and support recovery. Nursing is one of the most impactful and in-demand professions in South Africa.",
+      "required_subjects": ["LIFE_SCI"],
+      "preferred_subjects": ["MATH", "MATLIT", "PHY_SCI", "ENG_HL"],
+      "min_aps": 22,
+      "personality_match": {"HLP": 3, "ANL": 2, "LDR": 1, "TEC": 1, "CRE": 0, "ENT": 0}
+    },
+    {
+      "id": "teacher",
+      "title": "Teacher / Educator",
+      "icon": "📚",
+      "tagline": "Shape the next generation of South African leaders.",
+      "description": "Teachers inspire, educate and mentor young people. Education is the most powerful tool for change — and South Africa needs great teachers urgently.",
+      "required_subjects": [],
+      "preferred_subjects": ["ENG_HL", "MATH", "LIFE_SCI", "HIST", "GEO"],
+      "min_aps": 24,
+      "personality_match": {"HLP": 3, "LDR": 2, "CRE": 1, "ANL": 1, "TEC": 0, "ENT": 0}
+    },
+    {
+      "id": "lawyer",
+      "title": "Lawyer / Attorney",
+      "icon": "⚖️",
+      "tagline": "Defend rights, pursue justice, change lives.",
+      "description": "Lawyers advise clients, draft legal documents and represent people in court. Law touches every part of society — business, human rights, family and beyond.",
+      "required_subjects": [],
+      "preferred_subjects": ["ENG_HL", "HIST", "BUS_STU", "ECON"],
+      "min_aps": 30,
+      "personality_match": {"ANL": 2, "LDR": 3, "CRE": 1, "HLP": 1, "TEC": 0, "ENT": 1}
+    },
+    {
+      "id": "architect",
+      "title": "Architect",
+      "icon": "🏛️",
+      "tagline": "Design spaces where people live, work and dream.",
+      "description": "Architects design buildings and spaces, combining creative vision with technical precision. Every building you admire started as a sketch by an architect.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["EGD", "VIS_ARTS", "PHY_SCI"],
+      "min_aps": 30,
+      "personality_match": {"CRE": 3, "TEC": 2, "ANL": 2, "LDR": 1, "HLP": 0, "ENT": 0}
+    },
+    {
+      "id": "graphic_designer",
+      "title": "Graphic Designer / UI Designer",
+      "icon": "🎨",
+      "tagline": "Turn ideas into visuals that move people.",
+      "description": "Graphic designers create visual content for brands, apps, websites and media. In the digital age, great design is more valuable than ever.",
+      "required_subjects": [],
+      "preferred_subjects": ["VIS_ARTS", "CAT", "IT", "EGD"],
+      "min_aps": 20,
+      "personality_match": {"CRE": 3, "TEC": 2, "ANL": 1, "ENT": 1, "HLP": 0, "LDR": 0}
+    },
+    {
+      "id": "entrepreneur",
+      "title": "Entrepreneur / Business Owner",
+      "icon": "🚀",
+      "tagline": "Build something from nothing. Create jobs. Leave a legacy.",
+      "description": "Entrepreneurs identify opportunities, take calculated risks and build businesses. South Africa needs bold founders who can solve local problems with local solutions.",
+      "required_subjects": [],
+      "preferred_subjects": ["BUS_STU", "ECON", "ACC", "MATH"],
+      "min_aps": 20,
+      "personality_match": {"ENT": 3, "LDR": 3, "CRE": 2, "ANL": 1, "HLP": 0, "TEC": 0}
+    },
+    {
+      "id": "agricultural_scientist",
+      "title": "Agricultural Scientist",
+      "icon": "🌱",
+      "tagline": "Feed the nation. Secure South Africa's future.",
+      "description": "Agricultural scientists research and develop farming methods, food production and land management — critical for food security across Southern Africa.",
+      "required_subjects": ["LIFE_SCI"],
+      "preferred_subjects": ["AGR_SCI", "PHY_SCI", "MATH", "GEO"],
+      "min_aps": 24,
+      "personality_match": {"ANL": 2, "TEC": 2, "HLP": 2, "CRE": 1, "LDR": 1, "ENT": 1}
+    },
+    {
+      "id": "social_worker",
+      "title": "Social Worker",
+      "icon": "🤝",
+      "tagline": "Fight for the vulnerable. Transform communities.",
+      "description": "Social workers support individuals and families facing hardship — poverty, abuse, mental health and disability. One of the most meaningful careers in South Africa.",
+      "required_subjects": [],
+      "preferred_subjects": ["LIFE_SCI", "ENG_HL", "HIST", "GEO"],
+      "min_aps": 20,
+      "personality_match": {"HLP": 3, "LDR": 2, "CRE": 1, "ANL": 1, "TEC": 0, "ENT": 0}
+    },
+    {
+      "id": "journalist",
+      "title": "Journalist / Media Producer",
+      "icon": "🎙️",
+      "tagline": "Tell the stories that matter. Hold power accountable.",
+      "description": "Journalists investigate, report and broadcast news across print, radio, TV and digital media. In a democracy, journalists are essential to an informed society.",
+      "required_subjects": [],
+      "preferred_subjects": ["ENG_HL", "HIST", "GEO", "DRAM"],
+      "min_aps": 24,
+      "personality_match": {"CRE": 2, "ANL": 2, "LDR": 1, "HLP": 2, "TEC": 1, "ENT": 1}
+    },
+    {
+      "id": "environmental_scientist",
+      "title": "Environmental Scientist",
+      "icon": "🌍",
+      "tagline": "Protect the planet. Shape sustainable futures.",
+      "description": "Environmental scientists study ecosystems, pollution and climate change — advising governments and companies on how to protect natural resources.",
+      "required_subjects": ["LIFE_SCI"],
+      "preferred_subjects": ["GEO", "PHY_SCI", "MATH", "AGR_SCI"],
+      "min_aps": 26,
+      "personality_match": {"ANL": 3, "HLP": 2, "TEC": 1, "CRE": 1, "LDR": 1, "ENT": 0}
+    },
+    {
+      "id": "psychologist",
+      "title": "Psychologist / Counsellor",
+      "icon": "🧠",
+      "tagline": "Help people understand themselves and heal.",
+      "description": "Psychologists study human behaviour and mental health, providing therapy, assessment and counselling to individuals, schools and organisations.",
+      "required_subjects": ["LIFE_SCI"],
+      "preferred_subjects": ["ENG_HL", "HIST", "MATH", "MATLIT"],
+      "min_aps": 30,
+      "personality_match": {"HLP": 3, "ANL": 3, "CRE": 1, "LDR": 1, "TEC": 0, "ENT": 0}
+    },
+    {
+      "id": "it_network_admin",
+      "title": "IT / Network Administrator",
+      "icon": "🔧",
+      "tagline": "Keep the digital world connected and secure.",
+      "description": "IT administrators manage computer systems, networks and cybersecurity infrastructure — every organisation in the world depends on these professionals.",
+      "required_subjects": [],
+      "preferred_subjects": ["IT", "CAT", "MATH", "PHY_SCI"],
+      "min_aps": 22,
+      "personality_match": {"TEC": 3, "ANL": 2, "LDR": 1, "CRE": 1, "HLP": 0, "ENT": 0}
+    },
+    {
+      "id": "financial_analyst",
+      "title": "Financial Analyst",
+      "icon": "💰",
+      "tagline": "Turn numbers into strategy. Guide investment decisions.",
+      "description": "Financial analysts assess investment opportunities, build financial models and advise businesses and individuals on money management and growth strategies.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["ACC", "ECON", "BUS_STU"],
+      "min_aps": 28,
+      "personality_match": {"ANL": 3, "ENT": 2, "LDR": 1, "TEC": 2, "HLP": 0, "CRE": 0}
+    },
+    {
+      "id": "mechanical_engineer",
+      "title": "Mechanical Engineer",
+      "icon": "⚙️",
+      "tagline": "Design the machines that drive industry forward.",
+      "description": "Mechanical engineers design, build and maintain mechanical systems — from car engines to factory equipment and aerospace components.",
+      "required_subjects": ["MATH", "PHY_SCI"],
+      "preferred_subjects": ["EGD", "IT"],
+      "min_aps": 30,
+      "personality_match": {"TEC": 3, "ANL": 3, "CRE": 1, "LDR": 1, "HLP": 0, "ENT": 0}
+    },
+    {
+      "id": "pharmacist",
+      "title": "Pharmacist",
+      "icon": "💊",
+      "tagline": "The medication expert communities depend on.",
+      "description": "Pharmacists dispense medication, advise patients and ensure safe drug use. They are a critical part of the South African healthcare system.",
+      "required_subjects": ["MATH", "PHY_SCI", "LIFE_SCI"],
+      "preferred_subjects": ["ENG_HL"],
+      "min_aps": 30,
+      "personality_match": {"ANL": 3, "HLP": 2, "TEC": 2, "LDR": 1, "CRE": 0, "ENT": 0}
+    },
+    {
+      "id": "game_developer",
+      "title": "Game Developer",
+      "icon": "🎮",
+      "tagline": "Build interactive worlds that millions will explore.",
+      "description": "Game developers design and code video games — combining programming, storytelling and visual design into one of the world's most exciting industries.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["IT", "CAT", "VIS_ARTS", "EGD"],
+      "min_aps": 24,
+      "personality_match": {"TEC": 3, "CRE": 3, "ANL": 2, "ENT": 1, "HLP": 0, "LDR": 0}
+    },
+    {
+      "id": "marketing_manager",
+      "title": "Marketing Manager",
+      "icon": "📣",
+      "tagline": "Build brands people love. Tell stories that sell.",
+      "description": "Marketing managers develop strategies to promote products and services, manage campaigns and build brand identity across digital and traditional channels.",
+      "required_subjects": [],
+      "preferred_subjects": ["BUS_STU", "ECON", "ENG_HL", "VIS_ARTS"],
+      "min_aps": 24,
+      "personality_match": {"CRE": 2, "ENT": 2, "LDR": 2, "ANL": 1, "HLP": 1, "TEC": 1}
+    },
+    {
+      "id": "biomedical_scientist",
+      "title": "Biomedical Scientist",
+      "icon": "🔬",
+      "tagline": "Research the science behind disease and treatment.",
+      "description": "Biomedical scientists conduct laboratory research on diseases, develop diagnostic tests and contribute to medical breakthroughs that save millions of lives.",
+      "required_subjects": ["MATH", "PHY_SCI", "LIFE_SCI"],
+      "preferred_subjects": ["ENG_HL"],
+      "min_aps": 30,
+      "personality_match": {"ANL": 3, "TEC": 2, "HLP": 2, "CRE": 1, "LDR": 0, "ENT": 0}
+    },
+    {
+      "id": "urban_planner",
+      "title": "Urban & Regional Planner",
+      "icon": "🏙️",
+      "tagline": "Design the cities and townships of tomorrow.",
+      "description": "Urban planners shape how towns and cities develop — deciding where homes, parks, transport routes and businesses go to create liveable, sustainable communities.",
+      "required_subjects": ["MATH"],
+      "preferred_subjects": ["GEO", "EGD", "HIST", "BUS_STU"],
+      "min_aps": 26,
+      "personality_match": {"CRE": 2, "ANL": 2, "HLP": 2, "LDR": 2, "TEC": 1, "ENT": 1}
+    }
+  ]
+}
