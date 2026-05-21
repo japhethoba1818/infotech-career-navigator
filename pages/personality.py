@@ -67,7 +67,7 @@ def show():
         unsafe_allow_html=True,
     )
     st.markdown(
-        '<p class="hero-subtitle">Answer these 12 quick questions honestly. '
+        '<p class="hero-subtitle">Answer these 8 quick questions honestly. '
         'There are no right or wrong answers — just go with your first instinct.</p>',
         unsafe_allow_html=True,
     )
@@ -130,7 +130,7 @@ def show():
     # ── Live personality preview ───────────────────────────────────────────────
     answered_now = len(st.session_state.quiz_answers)
 
-    if answered_now >= 6:
+    if answered_now >= 4:
         scores    = score_answers(questions, st.session_state.quiz_answers)
         top_types = get_top_types(scores, top_n=3)
 

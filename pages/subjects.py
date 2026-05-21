@@ -147,7 +147,7 @@ def show():
         st.markdown(f"""
         <div class="card" style="text-align:center;border:2px solid #667eea;">
             <p style="margin:0;color:#6b7280;font-size:0.85rem">
-                Your estimated APS ({count} subjects selected)
+                Your estimated APS ({count} subjects · Life Orientation excluded)"
             </p>
             <p style="margin:4px 0;font-size:3rem;font-weight:800;
                       background:linear-gradient(135deg,#667eea,#764ba2);

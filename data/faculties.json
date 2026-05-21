@@ -1,0 +1,88 @@
+{
+  "faculties": [
+    {
+      "id": "health_sciences",
+      "title": "Health & Medical Sciences",
+      "icon": "🏥",
+      "tagline": "Heal people. Save lives. Lead South Africa's healthcare system.",
+      "description": "Careers in this field directly impact health outcomes — from medicine and nursing to psychology and pharmacy. If you care deeply about people and have a strong science background, this is your path.",
+      "personality_weights": {"HLP": 3, "ANL": 2, "TEC": 1, "LDR": 0, "CRE": 0, "ENT": 0},
+      "subject_indicators": ["LIFE_SCI", "PHY_SCI", "MATH"],
+      "career_ids": ["medical_doctor", "nurse", "pharmacist", "psychologist"],
+      "min_aps": 20,
+      "example_unis": "UCT · Wits · UP · UKZN · UWC"
+    },
+    {
+      "id": "engineering",
+      "title": "Engineering & Infrastructure",
+      "icon": "⚙️",
+      "tagline": "Build the systems and structures that power our country.",
+      "description": "Engineers design, build and maintain the physical world — from power grids and bridges to buildings and transport networks. Strong Mathematics and Physical Sciences are your entry point.",
+      "personality_weights": {"TEC": 3, "ANL": 2, "LDR": 1, "CRE": 1, "HLP": 0, "ENT": 0},
+      "subject_indicators": ["MATH", "PHY_SCI", "EGD"],
+      "career_ids": ["electrical_engineer", "civil_engineer", "mechanical_engineer", "urban_planner"],
+      "min_aps": 24,
+      "example_unis": "UCT · UP · Wits · SU · TUT"
+    },
+    {
+      "id": "information_technology",
+      "title": "Information Technology & Data",
+      "icon": "💻",
+      "tagline": "Code. Analyse. Build the digital world of tomorrow.",
+      "description": "From software engineering and cybersecurity to data science and game development — IT is the fastest-growing sector globally. If you love how systems work, this faculty is built for you.",
+      "personality_weights": {"TEC": 3, "ANL": 2, "CRE": 1, "ENT": 1, "HLP": 0, "LDR": 0},
+      "subject_indicators": ["MATH", "IT", "CAT"],
+      "career_ids": ["software_engineer", "data_scientist", "it_network_admin", "game_developer"],
+      "min_aps": 20,
+      "example_unis": "UCT · Wits · UP · UJ · UNISA"
+    },
+    {
+      "id": "commerce",
+      "title": "Commerce & Business",
+      "icon": "💼",
+      "tagline": "Drive business. Build wealth. Lead organisations forward.",
+      "description": "Commerce covers accounting, finance, marketing and entrepreneurship. If you are ambitious, love numbers and want to build or lead something that lasts, this is your faculty.",
+      "personality_weights": {"ENT": 3, "LDR": 2, "ANL": 2, "CRE": 1, "HLP": 0, "TEC": 0},
+      "subject_indicators": ["MATH", "ACC", "BUS_STU", "ECON"],
+      "career_ids": ["chartered_accountant", "financial_analyst", "entrepreneur", "marketing_manager"],
+      "min_aps": 20,
+      "example_unis": "UCT · Wits · UP · SU · UJ"
+    },
+    {
+      "id": "creative_arts",
+      "title": "Creative Arts & Design",
+      "icon": "🎨",
+      "tagline": "Express. Inspire. Shape culture through your creativity.",
+      "description": "Creative careers in design, media, architecture and journalism are for people who see the world differently. Your creativity is not a hobby — it is a full career.",
+      "personality_weights": {"CRE": 3, "ENT": 2, "TEC": 1, "ANL": 0, "HLP": 0, "LDR": 0},
+      "subject_indicators": ["VIS_ARTS", "DRAM", "MUSIC", "EGD", "CAT"],
+      "career_ids": ["graphic_designer", "journalist", "architect"],
+      "min_aps": 20,
+      "example_unis": "CPUT · TUT · Rhodes · Vega · AFDA"
+    },
+    {
+      "id": "science",
+      "title": "Natural & Applied Sciences",
+      "icon": "🔬",
+      "tagline": "Research. Discover. Solve South Africa's biggest challenges.",
+      "description": "Scientists research ecosystems, advance agriculture, develop medicines and unlock knowledge. If you ask deep questions and want to understand how the natural world works, science is your home.",
+      "personality_weights": {"ANL": 3, "TEC": 2, "HLP": 1, "CRE": 0, "LDR": 0, "ENT": 0},
+      "subject_indicators": ["LIFE_SCI", "PHY_SCI", "GEO", "AGR_SCI", "MATH"],
+      "career_ids": ["environmental_scientist", "agricultural_scientist", "biomedical_scientist"],
+      "min_aps": 20,
+      "example_unis": "UCT · UP · SU · UFS · UL"
+    },
+    {
+      "id": "education_social",
+      "title": "Education, Law & Social Sciences",
+      "icon": "📖",
+      "tagline": "Teach. Defend rights. Transform communities from within.",
+      "description": "Careers in teaching, law and social work are for people who lead with deep purpose. These professions shape communities, protect rights and build the next generation — among the most meaningful you can choose.",
+      "personality_weights": {"HLP": 3, "LDR": 2, "CRE": 1, "ANL": 1, "TEC": 0, "ENT": 0},
+      "subject_indicators": ["ENG_HL", "ENG_FAL", "HIST", "GEO"],
+      "career_ids": ["teacher", "social_worker", "lawyer"],
+      "min_aps": 20,
+      "example_unis": "UP · UKZN · UWC · UL · UNISA"
+    }
+  ]
+}
