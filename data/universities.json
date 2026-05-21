@@ -1,378 +1,378 @@
 {
   "career_guidance": {
     "medical_doctor": {
-      "qualification": "MBChB (Bachelor of Medicine & Bachelor of Surgery)",
+      "qualification": "MBChB — Bachelor of Medicine and Bachelor of Surgery",
       "duration": "6 years",
-      "job_roles": ["General Practitioner", "Surgeon", "Specialist", "Medical Researcher", "Public Health Officer"],
-      "salary": { "entry": "R800,000", "mid": "R1,400,000", "senior": "R2,500,000+" },
-      "application_tips": "Apply early — Medicine is the most competitive programme in SA. Ensure you meet ALL subject requirements. Register for the NBT (National Benchmark Test). Apply to multiple universities to improve your chances.",
-      "bursaries": ["NSFAS (for qualifying students)", "Funza Lushaka (for teaching paths)", "Department of Health Bursaries", "Netcare Bursaries"],
+      "job_roles": ["General Practitioner", "Specialist", "Surgeon", "Paediatrician", "Public Health Officer"],
+      "salary": {"entry": "R800,000", "mid": "R1,400,000", "senior": "R2,500,000+"},
+      "application_tips": "Medicine is the most competitive programme in SA — apply to at least 3 universities and do so early. Register for the National Benchmark Test (NBT) as soon as registration opens. Your Grade 11 results matter because universities use them for conditional offers before matric results are released.",
+      "bursaries": ["Department of Health Provincial Bursaries", "NSFAS", "Netcare Bursaries", "Discovery Foundation Scholarships"],
       "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 42, "required_subjects": "Mathematics 6, Physical Sciences 6, Life Sciences 6", "deadline": "31 July", "notes": "NBT required. Highly competitive — apply early." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 40, "required_subjects": "Mathematics 6, Physical Sciences 6, Life Sciences 6", "deadline": "30 June", "notes": "NBT required. Strong research focus." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 34, "required_subjects": "Mathematics 6, Physical Sciences 6, Life Sciences 5", "deadline": "30 June", "notes": "One of the largest medical schools in SA." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 42, "required_subjects": "Mathematics 6, Physical Sciences 6, Life Sciences 6", "deadline": "31 July", "notes": "Afrikaans and English instruction available." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 36, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "30 September", "notes": "Good option for students from KZN and Eastern regions." }
-      ]
-    },
-    "software_engineer": {
-      "qualification": "BSc Computer Science / BSc Software Engineering",
-      "duration": "3–4 years",
-      "job_roles": ["Software Developer", "Full-Stack Engineer", "Mobile App Developer", "DevOps Engineer", "Systems Architect", "AI/ML Engineer"],
-      "salary": { "entry": "R350,000", "mid": "R700,000", "senior": "R1,200,000+" },
-      "application_tips": "Mathematics is the key subject. Build a portfolio of personal projects on GitHub while still at school — universities and employers love this. Consider UNISA for a flexible route if your APS is developing.",
-      "bursaries": ["NSFAS", "Investec Bursaries", "Standard Bank Tech Bursaries", "Allan Gray Orbis Foundation", "MTN Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6", "deadline": "31 July", "notes": "Top CS department in Africa." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 35, "required_subjects": "Mathematics 6", "deadline": "30 September", "notes": "Strong industry connections in Johannesburg." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics 6", "deadline": "30 September", "notes": "Large CS faculty with many specialisations." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Good access pathway for township learners." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "31 October", "notes": "Distance learning — work while you study." }
-      ]
-    },
-    "electrical_engineer": {
-      "qualification": "BEng / BSc Electrical Engineering",
-      "duration": "4 years",
-      "job_roles": ["Electrical Engineer", "Power Systems Engineer", "Telecommunications Engineer", "Control Systems Engineer", "Electronics Engineer"],
-      "salary": { "entry": "R420,000", "mid": "R750,000", "senior": "R1,100,000+" },
-      "application_tips": "Strong Mathematics and Physical Sciences are non-negotiable. Engineering programmes are competitive — apply before September. ECSA registration after graduation boosts your career significantly.",
-      "bursaries": ["Eskom Bursaries", "NSFAS", "SASOL Bursaries", "Anglo American Bursaries", "Murray & Roberts Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6, Physical Sciences 6", "deadline": "31 July", "notes": "Top engineering faculty in Africa." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics 6, Physical Sciences 5", "deadline": "30 September", "notes": "Strong ties to Eskom and major engineering firms." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 36, "required_subjects": "Mathematics 6, Physical Sciences 6", "deadline": "31 August", "notes": "World-class engineering faculty." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5", "deadline": "30 September", "notes": "Good industry partnerships in Gauteng." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics 4, Physical Sciences 4", "deadline": "30 September", "notes": "National Diploma / BTech pathway available." }
-      ]
-    },
-    "civil_engineer": {
-      "qualification": "BEng / BSc Civil Engineering",
-      "duration": "4 years",
-      "job_roles": ["Civil Engineer", "Structural Engineer", "Project Manager", "Transportation Engineer", "Water Resources Engineer", "Site Engineer"],
-      "salary": { "entry": "R400,000", "mid": "R720,000", "senior": "R1,100,000+" },
-      "application_tips": "EGD (Engineering Graphics & Design) is a strong advantage. Geography also helps for understanding terrain and environments. Register with ECSA after graduating for professional status.",
-      "bursaries": ["SANRAL Bursaries", "NSFAS", "Department of Public Works Bursaries", "Aurecon Bursaries", "WBHO Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6, Physical Sciences 6", "deadline": "31 July", "notes": "Consistently ranked top in Africa." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics 6, Physical Sciences 5", "deadline": "30 September", "notes": "Large infrastructure research centre." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 30, "required_subjects": "Mathematics 5, Physical Sciences 5", "deadline": "30 September", "notes": "Strong coastal and water engineering focus." },
-        { "name": "Nelson Mandela University", "short": "NMU", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5", "deadline": "30 September", "notes": "Good option in Eastern Cape." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics 4, Physical Sciences 4", "deadline": "30 September", "notes": "Diploma pathway available." }
-      ]
-    },
-    "chartered_accountant": {
-      "qualification": "BCom Accounting / CTA + SAICA Board Exams",
-      "duration": "5–7 years (degree + articles + board exams)",
-      "job_roles": ["Chartered Accountant", "Auditor", "CFO", "Tax Consultant", "Financial Director", "Forensic Accountant"],
-      "salary": { "entry": "R450,000", "mid": "R900,000", "senior": "R2,000,000+" },
-      "application_tips": "The CA(SA) designation is one of the most respected qualifications in Africa. After your BCom, complete your CTA (Certificate in Theory of Accounting), then 3 years of SAICA articles, then the Board Exams. It is a long road but extremely rewarding.",
-      "bursaries": ["SAICA Thuthuka Bursary (for Black African and Coloured students)", "NSFAS", "Big 4 Firm Bursaries (Deloitte, PwC, EY, KPMG)", "Transnet Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6, Accounting 5", "deadline": "31 July", "notes": "Best SAICA pass rates in SA." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics 6", "deadline": "30 September", "notes": "Strong Big 4 firm recruitment pipeline." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics 5, Accounting 5", "deadline": "30 September", "notes": "Large accounting faculty." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 36, "required_subjects": "Mathematics 6", "deadline": "31 August", "notes": "Top accounting research university." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Good access programme for qualifying students." }
-      ]
-    },
-    "data_scientist": {
-      "qualification": "BSc Statistics / BSc Data Science / BCom Informatics",
-      "duration": "3–4 years",
-      "job_roles": ["Data Scientist", "Business Intelligence Analyst", "Machine Learning Engineer", "Data Analyst", "Quantitative Analyst"],
-      "salary": { "entry": "R380,000", "mid": "R750,000", "senior": "R1,200,000+" },
-      "application_tips": "Data Science is one of the fastest-growing fields globally. Strong Mathematics is essential. Python programming skills learned in your own time before university will set you apart significantly.",
-      "bursaries": ["NSFAS", "Discovery Bursaries", "Standard Bank Data & Tech Bursaries", "Rand Merchant Bank Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6", "deadline": "31 July", "notes": "Offers dedicated BSc Data Science programme." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics 6", "deadline": "30 September", "notes": "BCom Informatics and BSc Statistics pathways." },
-        { "name": "North-West University", "short": "NWU", "min_aps": 28, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Growing data science faculty." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "31 October", "notes": "Flexible distance learning option." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Applied Data Science programmes offered." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 42, "required_subjects": "Mathematics L6, Physical Sciences L6, Life Sciences L6", "deadline": "31 July", "notes": "Top-ranked medical school in Africa. NBT required. Apply extremely early."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 40, "required_subjects": "Mathematics L6, Physical Sciences L6, Life Sciences L6", "deadline": "30 June", "notes": "Strong hospital network in Johannesburg. NBT required."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 36, "required_subjects": "Mathematics L6, Physical Sciences L5, Life Sciences L5", "deadline": "30 June", "notes": "One of the largest medical schools in SA with excellent clinical training."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 42, "required_subjects": "Mathematics L6, Physical Sciences L6, Life Sciences L6", "deadline": "31 July", "notes": "World-class faculty. English and Afrikaans instruction available."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 36, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L5", "deadline": "30 September", "notes": "Best option for learners from KZN and Eastern regions."}
       ]
     },
     "nurse": {
-      "qualification": "Bachelor of Nursing Science (BNurs)",
+      "qualification": "BNurs — Bachelor of Nursing Science",
       "duration": "4 years",
-      "job_roles": ["Professional Nurse", "Specialist Nurse", "Midwife", "Community Health Nurse", "Nursing Manager", "ICU Nurse"],
-      "salary": { "entry": "R180,000", "mid": "R320,000", "senior": "R550,000+" },
-      "application_tips": "Nursing is one of the most in-demand professions in South Africa and globally. After qualifying, you can work in any country in the world. SANC (South African Nursing Council) registration is required after graduation.",
-      "bursaries": ["Department of Health Provincial Bursaries", "NSFAS", "Netcare Bursaries", "Mediclinic Bursaries", "Life Healthcare Bursaries"],
+      "job_roles": ["Professional Nurse", "ICU Nurse", "Midwife", "Community Health Nurse", "Nursing Manager"],
+      "salary": {"entry": "R180,000", "mid": "R320,000", "senior": "R550,000+"},
+      "application_tips": "Apply for provincial Department of Health bursaries the moment they open — they are specifically designed for nursing students and most include a job guarantee after graduation. After qualifying, SANC (South African Nursing Council) registration is compulsory before you can practise.",
+      "bursaries": ["Department of Health Provincial Bursaries (highly recommended)", "NSFAS", "Netcare Bursaries", "Life Healthcare Bursaries"],
       "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Life Sciences 5, Mathematics or Maths Literacy 4", "deadline": "30 September", "notes": "One of the top nursing faculties in SA." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 24, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Strong clinical training hospitals." },
-        { "name": "University of the Western Cape", "short": "UWC", "min_aps": 22, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Community health nursing focus." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Good option for Limpopo and northern region learners." },
-        { "name": "Walter Sisulu University", "short": "WSU", "min_aps": 20, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Strong focus on rural and community healthcare." }
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "Life Sciences L5, Mathematics or Maths Literacy L3", "deadline": "30 September", "notes": "Top nursing faculty in SA with excellent hospital training facilities."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "Life Sciences L4, English L4", "deadline": "30 September", "notes": "Good option for Gauteng learners with strong clinical placement programme."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 24, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Strong community and clinical nursing focus."},
+        {"name": "University of the Western Cape", "short": "UWC", "min_aps": 22, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Community health nursing specialisation available."},
+        {"name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Ideal for learners from Limpopo and northern regions."}
       ]
     },
-    "teacher": {
-      "qualification": "Bachelor of Education (BEd) — 4 years",
-      "duration": "4 years",
-      "job_roles": ["Foundation Phase Teacher", "Senior Phase Teacher", "FET Teacher", "School Principal", "Education Specialist", "Curriculum Developer"],
-      "salary": { "entry": "R180,000", "mid": "R320,000", "senior": "R500,000+" },
-      "application_tips": "The Funza Lushaka Bursary pays for your full degree AND guarantees you a job after graduation. Apply for it as soon as you apply to university. It is one of the best bursary deals available to South African students.",
-      "bursaries": ["Funza Lushaka Bursary (full bursary + job guarantee)", "NSFAS", "Provincial Education Department Bursaries"],
+    "pharmacist": {
+      "qualification": "BPharm — Bachelor of Pharmacy",
+      "duration": "4 years + 1 year internship",
+      "job_roles": ["Community Pharmacist", "Hospital Pharmacist", "Clinical Pharmacist", "Pharmaceutical Researcher", "Regulatory Affairs Specialist"],
+      "salary": {"entry": "R400,000", "mid": "R650,000", "senior": "R950,000+"},
+      "application_tips": "After your BPharm and internship year, you must register with the South African Pharmacy Council (SAPC) before you can dispense any medication. Clicks, Dis-Chem and Netcare all offer bursaries that include guaranteed employment after graduation — apply for these in Grade 11.",
+      "bursaries": ["Clicks Bursaries (highly recommended)", "Dis-Chem Bursaries", "NSFAS", "Department of Health Bursaries"],
       "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "English 5", "deadline": "30 September", "notes": "Top BEd programme in South Africa." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 28, "required_subjects": "English or Afrikaans 5", "deadline": "31 August", "notes": "Strong teacher training reputation." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English 4", "deadline": "30 September", "notes": "Large education faculty in Gauteng." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "English 4", "deadline": "30 September", "notes": "Good choice for rural and Limpopo learners." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Part-time BEd available for working adults." }
-      ]
-    },
-    "lawyer": {
-      "qualification": "LLB (Bachelor of Laws)",
-      "duration": "4 years (after a 3-year undergraduate degree at some universities)",
-      "job_roles": ["Attorney", "Advocate", "Prosecutor", "Legal Advisor", "Magistrate", "Human Rights Lawyer", "Corporate Counsel"],
-      "salary": { "entry": "R300,000", "mid": "R700,000", "senior": "R1,500,000+" },
-      "application_tips": "Strong English and critical thinking are more important than any specific subject. After your LLB, you must complete a 2-year articles of clerkship (for attorneys) or pupillage (for advocates) before practising.",
-      "bursaries": ["NSFAS", "Legal Aid South Africa Bursaries", "Law Society Bursaries", "Webber Wentzel Bursaries", "Bowmans Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "English Home Language 5", "deadline": "31 July", "notes": "Top-ranked law school in Africa." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "English 5", "deadline": "30 September", "notes": "Strong commercial and human rights law focus." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "English 5", "deadline": "30 September", "notes": "Large law faculty with many specialisations." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 28, "required_subjects": "English 5", "deadline": "30 September", "notes": "Strong social justice and public law focus." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 24, "required_subjects": "English 4", "deadline": "30 September", "notes": "Good access pathway for rural learners." }
-      ]
-    },
-    "architect": {
-      "qualification": "BArchSc + MArch (Professional)",
-      "duration": "5 years + 2 years practical",
-      "job_roles": ["Architect", "Urban Designer", "Interior Architect", "Landscape Architect", "Project Manager", "BIM Specialist"],
-      "salary": { "entry": "R280,000", "mid": "R550,000", "senior": "R900,000+" },
-      "application_tips": "A strong portfolio showing creative and technical drawing ability is often required at interview. EGD and Visual Arts are excellent preparation subjects. SACAP registration required for professional practice.",
-      "bursaries": ["NSFAS", "SACAP Bursaries", "Paragon Architects Bursaries", "Department of Public Works Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 5", "deadline": "31 July", "notes": "Best architecture school in Africa. Portfolio required." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Strong urban design focus." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Large programme with studio culture." },
-        { "name": "Nelson Mandela University", "short": "NMU", "min_aps": 26, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Good option in Eastern Cape." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Diploma in Architectural Technology pathway." }
-      ]
-    },
-    "graphic_designer": {
-      "qualification": "BA Graphic Design / Diploma in Graphic Design",
-      "duration": "3 years",
-      "job_roles": ["Graphic Designer", "UI/UX Designer", "Brand Strategist", "Motion Graphics Designer", "Digital Content Creator", "Art Director"],
-      "salary": { "entry": "R150,000", "mid": "R350,000", "senior": "R600,000+" },
-      "application_tips": "Build a creative portfolio now — even if it is just digital designs made on free tools like Canva. Universities look for creativity and passion over APS score in this field. Freelancing is also a strong career path.",
-      "bursaries": ["NSFAS", "Cape Town Creative Academy Bursaries", "Vega School Bursaries", "Red & Yellow Bursaries"],
-      "universities": [
-        { "name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Portfolio interview required." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Strong digital design focus." },
-        { "name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Private institution — creative and business focused." },
-        { "name": "Red & Yellow Creative School", "short": "R&Y", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Industry-leading creative school in Cape Town." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English 4", "deadline": "30 September", "notes": "BA Visual Communication programme." }
-      ]
-    },
-    "entrepreneur": {
-      "qualification": "BCom Entrepreneurship / BCom Business Management",
-      "duration": "3 years",
-      "job_roles": ["Business Owner", "Startup Founder", "Business Development Manager", "Product Manager", "Consultant", "Social Entrepreneur"],
-      "salary": { "entry": "Variable", "mid": "R400,000+", "senior": "Unlimited potential" },
-      "application_tips": "Entrepreneurship cannot fully be taught — it is built through action. Start a small business now while at school. A degree gives you business knowledge, but your drive and ideas are what will make you successful. Look into SEDA, the IDC and NYDA for startup funding after school.",
-      "bursaries": ["NSFAS", "NYDA (National Youth Development Agency) Grants", "Anzisha Prize", "Allan Gray Orbis Foundation"],
-      "universities": [
-        { "name": "University of Cape Town (GSB)", "short": "UCT GSB", "min_aps": 32, "required_subjects": "Mathematics 5", "deadline": "31 July", "notes": "Top entrepreneurship ecosystem in Africa." },
-        { "name": "University of Stellenbosch Business School", "short": "USB", "min_aps": 30, "required_subjects": "Mathematics 5", "deadline": "31 August", "notes": "Strong startup and innovation culture." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Practical entrepreneurship modules." },
-        { "name": "North-West University", "short": "NWU", "min_aps": 24, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "BCom Entrepreneurship with strong support." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics 4", "deadline": "31 October", "notes": "Study while running your business." }
-      ]
-    },
-    "agricultural_scientist": {
-      "qualification": "BSc Agriculture / BAgric",
-      "duration": "4 years",
-      "job_roles": ["Agricultural Scientist", "Farm Manager", "Agronomist", "Food Scientist", "Agricultural Extension Officer", "Environmental Consultant"],
-      "salary": { "entry": "R250,000", "mid": "R450,000", "senior": "R700,000+" },
-      "application_tips": "South Africa is one of Africa's most important agricultural economies. This is a career where you can make a real impact on food security. Agricultural Sciences and Life Sciences at school give you a strong foundation.",
-      "bursaries": ["NSFAS", "DAFF Bursaries (Department of Agriculture)", "Syngenta Bursaries", "Afgri Bursaries", "Grain SA Bursaries"],
-      "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Life Sciences 5, Mathematics 4", "deadline": "30 September", "notes": "Top agriculture faculty in Africa." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 28, "required_subjects": "Life Sciences 5, Mathematics 4", "deadline": "31 August", "notes": "Wine, viticulture and agribusiness strengths." },
-        { "name": "University of the Free State", "short": "UFS", "min_aps": 24, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Strong focus on southern African farming systems." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "Agricultural Sciences 4 or Life Sciences 4", "deadline": "30 September", "notes": "Ideal for Limpopo and rural Northern learners." },
-        { "name": "Fort Hare University", "short": "UFH", "min_aps": 20, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Focus on smallholder and communal farming." }
-      ]
-    },
-    "social_worker": {
-      "qualification": "Bachelor of Social Work (BSW)",
-      "duration": "4 years",
-      "job_roles": ["Social Worker", "Community Development Officer", "Child Protection Officer", "NGO Programme Manager", "Probation Officer", "School Social Worker"],
-      "salary": { "entry": "R160,000", "mid": "R280,000", "senior": "R420,000+" },
-      "application_tips": "Social Work is a protected title — you must be registered with the South African Council for Social Service Professions (SACSSP). The government actively recruits social workers and bursaries are widely available.",
-      "bursaries": ["Department of Social Development Bursaries (widely available)", "NSFAS", "Child Welfare SA Bursaries"],
-      "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 24, "required_subjects": "English 4", "deadline": "30 September", "notes": "Strong government and NGO placement record." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Community development focus." },
-        { "name": "University of the Western Cape", "short": "UWC", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Long history in community social work." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "English 4", "deadline": "30 September", "notes": "Ideal for rural community-focused practice." },
-        { "name": "Walter Sisulu University", "short": "WSU", "min_aps": 20, "required_subjects": "English 4", "deadline": "30 September", "notes": "Eastern Cape community focus." }
-      ]
-    },
-    "journalist": {
-      "qualification": "BA Journalism / BA Media Studies",
-      "duration": "3 years",
-      "job_roles": ["Journalist", "News Anchor", "Digital Content Producer", "Photojournalist", "Radio Presenter", "Podcast Producer", "Editor"],
-      "salary": { "entry": "R150,000", "mid": "R350,000", "senior": "R600,000+" },
-      "application_tips": "Start building your portfolio now. Write articles for your school newsletter, start a blog or YouTube channel. Journalism employers care more about your work than your degree. Strong English and a curious mind are your greatest tools.",
-      "bursaries": ["NSFAS", "Media Development and Diversity Agency (MDDA) Bursaries", "SABC Bursaries"],
-      "universities": [
-        { "name": "Rhodes University", "short": "Rhodes", "min_aps": 30, "required_subjects": "English Home Language 5", "deadline": "30 September", "notes": "Best journalism school in Africa." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 30, "required_subjects": "English 5", "deadline": "30 September", "notes": "Strong investigative journalism programme." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 26, "required_subjects": "English 5", "deadline": "30 September", "notes": "Good media and communications options." },
-        { "name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Practical, industry-focused journalism diploma." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 22, "required_subjects": "English 4", "deadline": "30 September", "notes": "Diploma in Journalism with broadcast focus." }
-      ]
-    },
-    "environmental_scientist": {
-      "qualification": "BSc Environmental Science / BSc Geography",
-      "duration": "3–4 years",
-      "job_roles": ["Environmental Scientist", "Conservation Officer", "Climate Analyst", "Environmental Impact Assessor", "Park Ranger", "Sustainability Consultant"],
-      "salary": { "entry": "R250,000", "mid": "R450,000", "senior": "R700,000+" },
-      "application_tips": "South Africa is one of the world's most biodiverse countries — environmental scientists are critical here. Geography and Life Sciences at school give you a strong foundation. The green economy is growing rapidly.",
-      "bursaries": ["NSFAS", "WWF Bursaries", "Department of Environmental Affairs Bursaries", "SANParks Bursaries"],
-      "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 34, "required_subjects": "Life Sciences 5, Mathematics 5", "deadline": "31 July", "notes": "Top environmental research in Africa." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 30, "required_subjects": "Life Sciences 5, Mathematics 4", "deadline": "31 August", "notes": "Excellent ecology and conservation programmes." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Life Sciences 5", "deadline": "30 September", "notes": "Adjacent to Kruger — strong field research." },
-        { "name": "University of the Free State", "short": "UFS", "min_aps": 24, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Environmental management programmes." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "Life Sciences 4", "deadline": "30 September", "notes": "Close to Kruger — strong field opportunities." }
+        {"name": "University of the Western Cape", "short": "UWC", "min_aps": 32, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L5", "deadline": "30 September", "notes": "Top pharmacy school in South Africa with excellent industry links."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L4", "deadline": "30 September", "notes": "Strong BPharm programme in Gauteng with good retail and clinical placements."},
+        {"name": "North-West University", "short": "NWU", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L4, Life Sciences L4", "deadline": "30 September", "notes": "Strong pharmaceutical sciences research department."},
+        {"name": "Nelson Mandela University", "short": "NMU", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L4", "deadline": "30 September", "notes": "Good option for Eastern Cape and southern region learners."},
+        {"name": "University of Limpopo", "short": "UL", "min_aps": 26, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L5", "deadline": "30 September", "notes": "Best option for northern region learners entering pharmacy."}
       ]
     },
     "psychologist": {
-      "qualification": "BA Psychology → Honours → Masters (minimum for registration)",
-      "duration": "6–7 years total",
-      "job_roles": ["Clinical Psychologist", "Educational Psychologist", "Counselling Psychologist", "Industrial Psychologist", "School Counsellor", "Researcher"],
-      "salary": { "entry": "R350,000", "mid": "R600,000", "senior": "R1,000,000+" },
-      "application_tips": "Psychology requires a Masters degree to practise professionally. This is a long but deeply rewarding path. Registration with the Health Professions Council of SA (HPCSA) is required. Industrial Psychology is a shorter and highly paid corporate route.",
-      "bursaries": ["NSFAS", "National Research Foundation (NRF) Postgraduate Bursaries", "HPCSA Bursaries"],
+      "qualification": "BA Psychology → Honours → MA/MClinPsych (minimum to register as psychologist)",
+      "duration": "6 to 7 years total",
+      "job_roles": ["Clinical Psychologist", "Educational Psychologist", "Industrial Psychologist", "Counselling Psychologist", "School Counsellor"],
+      "salary": {"entry": "R350,000", "mid": "R600,000", "senior": "R1,000,000+"},
+      "application_tips": "A Masters degree is the minimum requirement to register with the HPCSA as a practising psychologist. Industrial Psychology (working in companies) is a shorter route that only requires Honours level. Plan your full academic journey from the start — this is a long but deeply rewarding path.",
+      "bursaries": ["NSFAS", "National Research Foundation (NRF) Postgrad Bursaries", "HPCSA Bursaries", "Rand Mutual Assurance Bursaries"],
       "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "English 5, Life Sciences 4", "deadline": "31 July", "notes": "Top psychology research in Africa." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "English 5", "deadline": "30 September", "notes": "Strong clinical and research programmes." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "English 5", "deadline": "30 September", "notes": "Large faculty with industrial psychology option." },
-        { "name": "University of the Western Cape", "short": "UWC", "min_aps": 26, "required_subjects": "English 4", "deadline": "30 September", "notes": "Community and social psychology focus." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "English 4", "deadline": "31 October", "notes": "Distance learning BA Psychology pathway." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "English L5", "deadline": "31 July", "notes": "Top psychology research and clinical training in Africa."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "English L5", "deadline": "30 September", "notes": "Strong clinical and neuropsychology programmes."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "English L5", "deadline": "30 September", "notes": "Large faculty with industrial and educational psychology specialisations."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "English L4", "deadline": "30 September", "notes": "Good access pathway for Gauteng learners. Industrial psychology is a popular route."},
+        {"name": "University of the Western Cape", "short": "UWC", "min_aps": 26, "required_subjects": "English L4", "deadline": "30 September", "notes": "Community and social psychology focus."}
       ]
     },
-    "it_network_admin": {
-      "qualification": "BSc IT / Diploma in Information Technology",
-      "duration": "3 years",
-      "job_roles": ["IT Administrator", "Network Engineer", "Cybersecurity Analyst", "Systems Administrator", "Cloud Engineer", "IT Support Manager"],
-      "salary": { "entry": "R250,000", "mid": "R500,000", "senior": "R850,000+" },
-      "application_tips": "Get certified while studying — CompTIA A+, Network+, Cisco CCNA and Microsoft certifications add enormous value alongside your degree. Cybersecurity is one of the highest-paying IT specialisations right now.",
-      "bursaries": ["NSFAS", "MTN Bursaries", "Vodacom Bursaries", "Microsoft South Africa Bursaries"],
+    "electrical_engineer": {
+      "qualification": "BEng Electrical and Electronic Engineering",
+      "duration": "4 years",
+      "job_roles": ["Electrical Engineer", "Power Systems Engineer", "Telecommunications Engineer", "Control Systems Engineer", "Renewable Energy Engineer"],
+      "salary": {"entry": "R420,000", "mid": "R750,000", "senior": "R1,200,000+"},
+      "application_tips": "Register with the Engineering Council of South Africa (ECSA) after graduation — it is essential for professional practice and significantly increases your earning potential. South Africa urgently needs electrical engineers for the energy sector.",
+      "bursaries": ["Eskom Bursaries (priority for electrical engineers)", "NSFAS", "SASOL Bursaries", "Anglo American Bursaries"],
       "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "BSc IT and Computer Science options." },
-        { "name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Practical, industry-aligned IT diploma." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "National Diploma in IT widely available." },
-        { "name": "Durban University of Technology", "short": "DUT", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Good option in KwaZulu-Natal." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics 3", "deadline": "31 October", "notes": "Work while studying — very flexible." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "31 July", "notes": "Top-ranked engineering school in Africa."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 35, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "30 September", "notes": "Strong Eskom and telecommunications industry links."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics L6, Physical Sciences L5", "deadline": "30 September", "notes": "Excellent industry ties with major energy and mining companies."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L5", "deadline": "30 September", "notes": "Strong industry connections across Gauteng. Good BEng pathway."},
+        {"name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics L4, Physical Sciences L4", "deadline": "30 September", "notes": "National Diploma pathway available for students building toward the degree."}
       ]
     },
-    "financial_analyst": {
-      "qualification": "BCom Finance / BCom Investment Management",
-      "duration": "3–4 years",
-      "job_roles": ["Financial Analyst", "Investment Analyst", "Portfolio Manager", "Risk Analyst", "Treasury Analyst", "Equity Researcher"],
-      "salary": { "entry": "R380,000", "mid": "R750,000", "senior": "R1,400,000+" },
-      "application_tips": "The CFA (Chartered Financial Analyst) designation is the global gold standard for investment professionals — pursue this after your degree. Mathematics and Accounting at school are your strongest preparation subjects.",
-      "bursaries": ["NSFAS", "JSE Bursaries", "Rand Merchant Bank Bursaries", "Investec Bursaries", "Old Mutual Bursaries"],
+    "civil_engineer": {
+      "qualification": "BEng Civil Engineering",
+      "duration": "4 years",
+      "job_roles": ["Civil Engineer", "Structural Engineer", "Water Resources Engineer", "Transportation Engineer", "Site Engineer", "Project Manager"],
+      "salary": {"entry": "R400,000", "mid": "R720,000", "senior": "R1,100,000+"},
+      "application_tips": "SANRAL, the Department of Public Works and major construction firms actively recruit and bursary civil engineering students. Apply for company bursaries before Grade 12 exams — many open as early as March. ECSA registration after graduation is compulsory for professional practice.",
+      "bursaries": ["SANRAL Bursaries", "NSFAS", "Department of Public Works Bursaries", "Murray & Roberts Bursaries"],
       "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6", "deadline": "31 July", "notes": "Top finance faculty in Africa." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics 6", "deadline": "30 September", "notes": "Close to JSE — strong industry access." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 34, "required_subjects": "Mathematics 6", "deadline": "31 August", "notes": "Investment management specialisation." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Large BCom Finance faculty." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Good access and industry links in Johannesburg." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "31 July", "notes": "Consistently Africa's top civil engineering programme."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 35, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "30 September", "notes": "Strong infrastructure and structural engineering focus."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics L6, Physical Sciences L5", "deadline": "30 September", "notes": "Large civil engineering department with extensive research facilities."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L5", "deadline": "30 September", "notes": "Good access pathway with strong Gauteng construction sector links."},
+        {"name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics L4, Physical Sciences L4", "deadline": "30 September", "notes": "Diploma in Civil Engineering — a practical entry route."}
       ]
     },
     "mechanical_engineer": {
       "qualification": "BEng Mechanical Engineering",
       "duration": "4 years",
-      "job_roles": ["Mechanical Engineer", "Manufacturing Engineer", "Automotive Engineer", "HVAC Engineer", "Aerospace Engineer", "Robotics Engineer"],
-      "salary": { "entry": "R400,000", "mid": "R720,000", "senior": "R1,100,000+" },
-      "application_tips": "Mechanical Engineering is the broadest engineering discipline. It opens doors in manufacturing, automotive, energy, aerospace and robotics. ECSA registration after graduation is essential for professional practice in SA.",
-      "bursaries": ["NSFAS", "SASOL Bursaries", "Anglo American Bursaries", "Transnet Engineering Bursaries", "Denel Bursaries"],
+      "job_roles": ["Mechanical Engineer", "Manufacturing Engineer", "Automotive Engineer", "HVAC Engineer", "Robotics Engineer", "Maintenance Engineer"],
+      "salary": {"entry": "R400,000", "mid": "R720,000", "senior": "R1,100,000+"},
+      "application_tips": "Mechanical Engineering is the broadest engineering discipline — it opens doors in manufacturing, automotive, energy and aerospace. ECSA registration after graduation unlocks full professional status and significantly higher salaries. South Africa's mining and manufacturing sectors have high demand.",
+      "bursaries": ["SASOL Bursaries", "NSFAS", "Anglo American Bursaries", "Transnet Engineering Bursaries"],
       "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics 6, Physical Sciences 6", "deadline": "31 July", "notes": "Top engineering school in Africa." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics 6, Physical Sciences 5", "deadline": "30 September", "notes": "Strong manufacturing and automotive focus." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 36, "required_subjects": "Mathematics 6, Physical Sciences 6", "deadline": "31 August", "notes": "Research-intensive mechanical engineering." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5", "deadline": "30 September", "notes": "Good industrial and manufacturing links." },
-        { "name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics 4, Physical Sciences 4", "deadline": "30 September", "notes": "National Diploma pathway available." }
-      ]
-    },
-    "pharmacist": {
-      "qualification": "BPharm (Bachelor of Pharmacy)",
-      "duration": "4 years + 1 year internship",
-      "job_roles": ["Pharmacist", "Clinical Pharmacist", "Pharmaceutical Researcher", "Hospital Pharmacist", "Regulatory Affairs Specialist", "Pharmacy Manager"],
-      "salary": { "entry": "R400,000", "mid": "R650,000", "senior": "R950,000+" },
-      "application_tips": "Pharmacy is one of the most stable healthcare careers in SA. After your degree and internship, you must register with the South African Pharmacy Council (SAPC). Community pharmacies, hospitals and the pharmaceutical industry all need pharmacists urgently.",
-      "bursaries": ["NSFAS", "Aspen Pharmacare Bursaries", "Clicks Bursaries", "Dis-Chem Bursaries", "Department of Health Bursaries"],
-      "universities": [
-        { "name": "University of the Western Cape", "short": "UWC", "min_aps": 30, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "30 September", "notes": "Top pharmacy school in SA." },
-        { "name": "University of Limpopo", "short": "UL", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "30 September", "notes": "Good option for northern and rural learners." },
-        { "name": "Rhodes University", "short": "Rhodes", "min_aps": 30, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "30 September", "notes": "Small, focused pharmacy programme." },
-        { "name": "North-West University", "short": "NWU", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 4", "deadline": "30 September", "notes": "Pharmaceutical sciences research strength." },
-        { "name": "Nelson Mandela University", "short": "NMU", "min_aps": 28, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 4", "deadline": "30 September", "notes": "Eastern Cape option with industry links." }
-      ]
-    },
-    "game_developer": {
-      "qualification": "BSc Computer Science / Diploma in Game Development",
-      "duration": "3 years",
-      "job_roles": ["Game Developer", "Game Designer", "3D Artist", "Unity/Unreal Developer", "Game QA Tester", "VR/AR Developer"],
-      "salary": { "entry": "R250,000", "mid": "R500,000", "senior": "R900,000+" },
-      "application_tips": "The South African gaming industry is young but growing fast. Start building games now using free tools like Unity or Godot. A portfolio of actual games you have built will get you into any company or university faster than grades alone.",
-      "bursaries": ["NSFAS", "IESA (Interactive Entertainment South Africa) Support", "Allan Gray Orbis Foundation"],
-      "universities": [
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Game design modules in IT programme." },
-        { "name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Multimedia and game development pathway." },
-        { "name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Creative + tech game design approach." },
-        { "name": "AFDA", "short": "AFDA", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Animation and digital arts focus." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics 3", "deadline": "31 October", "notes": "BSc Computing — flexible game dev pathway." }
-      ]
-    },
-    "marketing_manager": {
-      "qualification": "BCom Marketing / BA Communication",
-      "duration": "3 years",
-      "job_roles": ["Marketing Manager", "Brand Strategist", "Digital Marketing Specialist", "Social Media Manager", "Advertising Executive", "PR Manager"],
-      "salary": { "entry": "R280,000", "mid": "R550,000", "senior": "R1,000,000+" },
-      "application_tips": "Build your personal brand now on social media. Marketers who can show real results — followers built, campaigns run, content created — are hired before people with degrees but no experience. Digital marketing skills (Google, Meta, SEO) are especially in demand.",
-      "bursaries": ["NSFAS", "AAA School of Advertising Bursaries", "Ogilvy Bursaries", "WPP Bursaries"],
-      "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "English 5", "deadline": "30 September", "notes": "Strong BCom Marketing with industry focus." },
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 32, "required_subjects": "English 5", "deadline": "31 July", "notes": "Top business and communication school." },
-        { "name": "AAA School of Advertising", "short": "AAA", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Industry-focused advertising school." },
-        { "name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English 4", "deadline": "31 October", "notes": "Brand and communications focus." },
-        { "name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English 4", "deadline": "30 September", "notes": "BCom Marketing with Gauteng industry links." }
-      ]
-    },
-    "biomedical_scientist": {
-      "qualification": "BSc Biomedical Science / BSc Medical Science",
-      "duration": "3–4 years",
-      "job_roles": ["Biomedical Scientist", "Medical Laboratory Scientist", "Clinical Researcher", "Pathology Technologist", "Pharmaceutical Researcher", "Medical Device Specialist"],
-      "salary": { "entry": "R300,000", "mid": "R520,000", "senior": "R800,000+" },
-      "application_tips": "Biomedical Science feeds directly into medical research, diagnostics and pharmaceutical development. HPCSA registration required for laboratory practice. This career sits at the exciting intersection of science and technology.",
-      "bursaries": ["NSFAS", "MRC (Medical Research Council) Bursaries", "NRF Bursaries", "Aspen Pharmacare Bursaries"],
-      "universities": [
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "30 September", "notes": "Top biomedical science faculty." },
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 34, "required_subjects": "Mathematics 6, Physical Sciences 5, Life Sciences 5", "deadline": "31 July", "notes": "World-class medical research environment." },
-        { "name": "Stellenbosch University", "short": "SU", "min_aps": 32, "required_subjects": "Mathematics 5, Physical Sciences 5, Life Sciences 5", "deadline": "31 August", "notes": "Strong pharmaceutical and biotech research." },
-        { "name": "University of the Free State", "short": "UFS", "min_aps": 26, "required_subjects": "Mathematics 4, Life Sciences 5", "deadline": "30 September", "notes": "Medical laboratory science pathway." },
-        { "name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "Mathematics 4, Life Sciences 4", "deadline": "31 October", "notes": "Distance learning science pathway." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "31 July", "notes": "Top mechanical engineering school with cutting-edge research labs."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics L6, Physical Sciences L5", "deadline": "30 September", "notes": "Strong automotive and manufacturing industry partnerships."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 36, "required_subjects": "Mathematics L6, Physical Sciences L6", "deadline": "31 August", "notes": "Research-intensive programme with world-class facilities."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5, Physical Sciences L5", "deadline": "30 September", "notes": "Good industry-connected programme in Gauteng with solid ECSA outcomes."},
+        {"name": "Tshwane University of Technology", "short": "TUT", "min_aps": 24, "required_subjects": "Mathematics L4, Physical Sciences L4", "deadline": "30 September", "notes": "Diploma in Mechanical Engineering pathway available."}
       ]
     },
     "urban_planner": {
-      "qualification": "BSc Urban & Regional Planning",
+      "qualification": "BSc Urban and Regional Planning",
       "duration": "4 years",
-      "job_roles": ["Urban Planner", "Town Planner", "Regional Development Specialist", "GIS Analyst", "Housing Policy Advisor", "Municipal Planner"],
-      "salary": { "entry": "R280,000", "mid": "R520,000", "senior": "R800,000+" },
-      "application_tips": "South Africa has a massive need for urban planners to address housing, township development and spatial inequality. SACPLAN registration is required for professional practice. Geography at school is excellent preparation.",
-      "bursaries": ["NSFAS", "SACPLAN Bursaries", "Department of Human Settlements Bursaries", "Municipal Infrastructure Grant-funded Bursaries"],
+      "job_roles": ["Urban Planner", "Town Planner", "GIS Analyst", "Housing Policy Advisor", "Municipal Planner", "Regional Development Specialist"],
+      "salary": {"entry": "R280,000", "mid": "R520,000", "senior": "R800,000+"},
+      "application_tips": "South Africa has a critical need for urban planners to address township development, housing backlogs and spatial inequality. SACPLAN (South African Council for Planners) registration is required for professional practice. Municipality bursaries are widely available.",
+      "bursaries": ["Department of Human Settlements Bursaries", "NSFAS", "SACPLAN Bursaries", "Municipal Infrastructure Bursaries"],
       "universities": [
-        { "name": "University of Cape Town", "short": "UCT", "min_aps": 32, "required_subjects": "Mathematics 5", "deadline": "31 July", "notes": "Top planning school with urban Africa focus." },
-        { "name": "University of the Witwatersrand", "short": "Wits", "min_aps": 30, "required_subjects": "Mathematics 5", "deadline": "30 September", "notes": "Strong Johannesburg urban development focus." },
-        { "name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "One of the largest planning schools in SA." },
-        { "name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 26, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Good focus on coastal and rural planning." },
-        { "name": "Nelson Mandela University", "short": "NMU", "min_aps": 24, "required_subjects": "Mathematics 4", "deadline": "30 September", "notes": "Eastern Cape regional planning focus." }
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 32, "required_subjects": "Mathematics L5", "deadline": "31 July", "notes": "Top planning school in Africa with strong urban development focus."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 30, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Strong Johannesburg and township spatial planning programmes."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "One of the largest planning schools in SA."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Practical urban planning programme with strong municipal sector links."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 26, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Coastal and rural planning specialisations available."}
+      ]
+    },
+    "software_engineer": {
+      "qualification": "BSc Computer Science or BSc Software Engineering",
+      "duration": "3 to 4 years",
+      "job_roles": ["Software Developer", "Full-Stack Engineer", "Mobile App Developer", "DevOps Engineer", "Systems Architect", "Backend Engineer"],
+      "salary": {"entry": "R350,000", "mid": "R700,000", "senior": "R1,200,000+"},
+      "application_tips": "Start building personal projects now — a GitHub portfolio of apps you have built is worth more than your marks to most tech employers. Mathematics is the only non-negotiable subject. The demand for software engineers in SA and globally is consistently higher than supply.",
+      "bursaries": ["Investec Tech Bursaries", "NSFAS", "Standard Bank Technology Bursaries", "MTN Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6", "deadline": "31 July", "notes": "Top computer science department in Africa."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 35, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "Strong fintech and Johannesburg tech industry connections."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "Large CS faculty with many specialisations including AI and cybersecurity."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Good access pathway. Strong Gauteng tech industry placement record."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "Mathematics L4", "deadline": "31 October", "notes": "Flexible distance learning — study while building your portfolio."}
+      ]
+    },
+    "data_scientist": {
+      "qualification": "BSc Data Science, BSc Statistics, or BSc Computer Science",
+      "duration": "3 to 4 years",
+      "job_roles": ["Data Scientist", "Business Intelligence Analyst", "Machine Learning Engineer", "Data Analyst", "Quantitative Analyst"],
+      "salary": {"entry": "R380,000", "mid": "R750,000", "senior": "R1,200,000+"},
+      "application_tips": "Learn Python and SQL while still at school — free resources on YouTube and freeCodeCamp are excellent. Data Science is the most in-demand career globally right now. A strong Mathematics foundation is essential. Most data science roles value practical portfolio projects above formal qualifications alone.",
+      "bursaries": ["Discovery Bursaries", "NSFAS", "Rand Merchant Bank Bursaries", "Standard Bank Data Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6", "deadline": "31 July", "notes": "Offers dedicated BSc Data Science programme — one of very few in SA."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "Strong statistics and applied mathematics pathway into data science."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "BCom Informatics and BSc Statistics both lead to data science careers."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Applied Data Science modules available. Strong business analytics focus."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 22, "required_subjects": "Mathematics L4", "deadline": "31 October", "notes": "Flexible distance learning BSc — good for self-motivated learners."}
+      ]
+    },
+    "it_network_admin": {
+      "qualification": "BSc Information Technology or Diploma in IT",
+      "duration": "3 years",
+      "job_roles": ["IT Administrator", "Network Engineer", "Cybersecurity Analyst", "Systems Administrator", "Cloud Engineer", "IT Support Manager"],
+      "salary": {"entry": "R250,000", "mid": "R500,000", "senior": "R850,000+"},
+      "application_tips": "Industry certifications add enormous value alongside your degree. While studying, work toward CompTIA A+, then Network+, then Cisco CCNA. Cybersecurity is the fastest-growing and highest-paying IT specialisation right now — consider it as your focus area.",
+      "bursaries": ["MTN Bursaries", "NSFAS", "Vodacom Bursaries", "Accenture Bursaries"],
+      "universities": [
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Strong BSc IT and Computer Science options available."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Practical IT programme with strong Gauteng corporate sector placements."},
+        {"name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Industry-aligned IT diploma with strong hands-on technical training."},
+        {"name": "Tshwane University of Technology", "short": "TUT", "min_aps": 22, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "National Diploma in IT widely available. Good for Pretoria-based learners."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics L3", "deadline": "31 October", "notes": "Study at your own pace. Ideal for working students building experience alongside studies."}
+      ]
+    },
+    "game_developer": {
+      "qualification": "BSc Computer Science or Diploma in Game Development",
+      "duration": "3 years",
+      "job_roles": ["Game Developer", "Unity or Unreal Developer", "3D Artist", "Game Designer", "VR/AR Developer", "Game QA Engineer"],
+      "salary": {"entry": "R250,000", "mid": "R500,000", "senior": "R900,000+"},
+      "application_tips": "Download Unity or Godot (both free) and start building small games today. A portfolio of real games you have built will get you into any university or company faster than grades alone. The South African gaming industry is small but growing — many SA developers work for international studios remotely.",
+      "bursaries": ["NSFAS", "Allan Gray Orbis Foundation", "Investec Tech Bursaries", "UJ Faculty of Science Bursaries"],
+      "universities": [
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Game design and development modules offered within BSc IT. Active game dev community on campus."},
+        {"name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Multimedia and game development pathway through IT diploma."},
+        {"name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Creative and technical game design approach. Portfolio-based entry."},
+        {"name": "AFDA", "short": "AFDA", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Animation and digital arts focus. Audition or portfolio required."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics L3", "deadline": "31 October", "notes": "BSc Computing via distance learning — good for self-taught developers."}
+      ]
+    },
+    "chartered_accountant": {
+      "qualification": "BCom Accounting → CTA → SAICA Board Exams → 3 years Articles",
+      "duration": "7 to 8 years total (degree + articles + board exams)",
+      "job_roles": ["Chartered Accountant CA(SA)", "Auditor", "CFO", "Tax Consultant", "Forensic Accountant", "Financial Director"],
+      "salary": {"entry": "R500,000", "mid": "R950,000", "senior": "R2,000,000+"},
+      "application_tips": "The SAICA Thuthuka Bursary is specifically designed for Black African and Coloured students wanting to become CAs — it covers full tuition and living costs. Apply in Grade 11. The CA(SA) designation is one of the most respected qualifications on the African continent and opens doors globally.",
+      "bursaries": ["SAICA Thuthuka Bursary (priority — covers full costs)", "NSFAS", "Deloitte Bursaries", "PwC Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L6, Accounting L5 (advantageous)", "deadline": "31 July", "notes": "Best SAICA board exam pass rates in SA. Strong Big 4 firm recruitment."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 36, "required_subjects": "Mathematics L6", "deadline": "31 August", "notes": "Top accounting research university. Strong CA(SA) pipeline."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "Strong Big 4 recruitment pipeline in Johannesburg."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 32, "required_subjects": "Mathematics L5, Accounting advantageous", "deadline": "30 September", "notes": "Large accounting faculty. Good Thuthuka bursary intake."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Strong access pathway with Thuthuka programme. Well-regarded BCom Accounting."}
+      ]
+    },
+    "financial_analyst": {
+      "qualification": "BCom Finance or BCom Investment Management",
+      "duration": "3 years (+ CFA certification recommended after graduation)",
+      "job_roles": ["Financial Analyst", "Investment Analyst", "Portfolio Manager", "Risk Analyst", "Treasury Analyst", "Equity Researcher"],
+      "salary": {"entry": "R380,000", "mid": "R750,000", "senior": "R1,400,000+"},
+      "application_tips": "The CFA (Chartered Financial Analyst) is the global gold standard for investment professionals — start studying for it after your degree. Mathematics is essential. Strong Excel and financial modelling skills are what employers test in interviews, so start practising these early.",
+      "bursaries": ["JSE Bursaries", "NSFAS", "Investec Bursaries", "Rand Merchant Bank Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 34, "required_subjects": "Mathematics L6", "deadline": "31 July", "notes": "Top finance faculty in Africa. Strong JSE and asset management connections."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 34, "required_subjects": "Mathematics L6", "deadline": "31 August", "notes": "Investment management specialisation available. Strong industry reputation."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 32, "required_subjects": "Mathematics L6", "deadline": "30 September", "notes": "Located near the JSE in Johannesburg — strong industry access."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Large BCom Finance faculty with investment management option."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Good access programme with solid Johannesburg financial sector links."}
+      ]
+    },
+    "entrepreneur": {
+      "qualification": "BCom Entrepreneurship or BCom Business Management",
+      "duration": "3 years",
+      "job_roles": ["Business Owner", "Startup Founder", "Business Development Manager", "Product Manager", "Social Entrepreneur", "Franchise Owner"],
+      "salary": {"entry": "Variable", "mid": "R400,000+", "senior": "Unlimited"},
+      "application_tips": "Start a small business now — even selling things at school teaches you more than any textbook. A degree gives you business knowledge and credibility, but your hustle and execution are what will actually make you successful. Look into the NYDA (National Youth Development Agency) for startup funding after school.",
+      "bursaries": ["NYDA Grants", "NSFAS", "Anzisha Prize (for young African entrepreneurs)", "Allan Gray Orbis Foundation"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 30, "required_subjects": "Mathematics L5", "deadline": "31 July", "notes": "Best entrepreneurship ecosystem in Africa. Home to LaunchLab incubator."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Good BCom Entrepreneurship with startup support programmes."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Strong Entrepreneurship Development Centre on campus."},
+        {"name": "North-West University", "short": "NWU", "min_aps": 24, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Solid BCom Entrepreneurship with good SME support network."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "Mathematics L4", "deadline": "31 October", "notes": "Study while running your business. Highly flexible."}
+      ]
+    },
+    "marketing_manager": {
+      "qualification": "BCom Marketing or BA Communication Science",
+      "duration": "3 years",
+      "job_roles": ["Marketing Manager", "Brand Strategist", "Digital Marketing Specialist", "Social Media Manager", "Advertising Executive", "PR Manager"],
+      "salary": {"entry": "R280,000", "mid": "R550,000", "senior": "R1,000,000+"},
+      "application_tips": "Build your personal brand on social media now. Marketers who can show real results — a following they built, campaigns they ran, content they created — get hired before people with degrees but no experience. Learn Google Ads, Meta Business Manager and basic SEO for free on YouTube.",
+      "bursaries": ["NSFAS", "Ogilvy Bursaries", "WPP Bursaries", "AAA School of Advertising Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 30, "required_subjects": "English L5", "deadline": "31 July", "notes": "Top business and communication school. Strong advertising industry links."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "English L5", "deadline": "30 September", "notes": "Strong BCom Marketing with solid industry placements."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English L4", "deadline": "30 September", "notes": "BCom Marketing with strong Gauteng advertising and media connections."},
+        {"name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Brand communication and marketing focus. Portfolio-based entry."},
+        {"name": "AAA School of Advertising", "short": "AAA", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Industry-focused advertising school with strong agency placement record."}
+      ]
+    },
+    "graphic_designer": {
+      "qualification": "BA Graphic Design or Diploma in Graphic Design",
+      "duration": "3 years",
+      "job_roles": ["Graphic Designer", "UI/UX Designer", "Brand Designer", "Motion Graphics Designer", "Digital Content Creator", "Art Director"],
+      "salary": {"entry": "R150,000", "mid": "R350,000", "senior": "R650,000+"},
+      "application_tips": "Build a portfolio of your best creative work now — even designs made on free tools like Canva count. Universities and employers in this field care more about your creativity and eye for design than your APS score. Freelancing is also a legitimate full career path with unlimited earning potential.",
+      "bursaries": ["NSFAS", "Cape Town Creative Academy Bursaries", "Vega School Bursaries", "Red and Yellow Bursaries"],
+      "universities": [
+        {"name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Portfolio interview required. Strong digital design and visual communication focus."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English L4", "deadline": "30 September", "notes": "BA Visual Communication — strong industry links in Johannesburg."},
+        {"name": "Tshwane University of Technology", "short": "TUT", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Diploma in Graphic Design with strong digital and print focus."},
+        {"name": "Vega School (IIE)", "short": "Vega", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Private institution — excellent creative culture and industry exposure."},
+        {"name": "Red and Yellow Creative School", "short": "R&Y", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Industry-leading creative school in Cape Town. Portfolio entry."}
+      ]
+    },
+    "journalist": {
+      "qualification": "BA Journalism or BA Media Studies",
+      "duration": "3 years",
+      "job_roles": ["Journalist", "News Anchor", "Digital Content Producer", "Photojournalist", "Radio Presenter", "Podcast Producer", "Editor"],
+      "salary": {"entry": "R150,000", "mid": "R350,000", "senior": "R650,000+"},
+      "application_tips": "Start writing now. Start a blog, contribute to your school newspaper, post commentary on current events. Journalism employers look at your portfolio of published work. Strong English, curiosity and the courage to ask hard questions are your most valuable tools.",
+      "bursaries": ["NSFAS", "SABC Bursaries", "Media Development and Diversity Agency (MDDA) Bursaries", "Naspers Bursaries"],
+      "universities": [
+        {"name": "Rhodes University", "short": "Rhodes", "min_aps": 30, "required_subjects": "English Home Language L5", "deadline": "30 September", "notes": "Best journalism school in Africa. Strong investigative reporting culture."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 30, "required_subjects": "English L5", "deadline": "30 September", "notes": "Strong print, broadcast and digital journalism programmes."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "English L4", "deadline": "30 September", "notes": "BA Communication with journalism focus. Good Gauteng media sector connections."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 26, "required_subjects": "English L5", "deadline": "30 September", "notes": "Media studies and journalism. Good for KZN and Eastern region learners."},
+        {"name": "Cape Peninsula University of Technology", "short": "CPUT", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Practical diploma with broadcast and digital focus. Strong industry exposure."}
+      ]
+    },
+    "architect": {
+      "qualification": "BArchSc (3 years) + MArch Professional (2 years)",
+      "duration": "5 years academic + 2 years practical training",
+      "job_roles": ["Architect", "Urban Designer", "Interior Architect", "BIM Specialist", "Project Manager", "Landscape Architect"],
+      "salary": {"entry": "R280,000", "mid": "R550,000", "senior": "R950,000+"},
+      "application_tips": "Start sketching and building models now — a strong visual portfolio is required for admission at most schools. EGD (Engineering Graphics and Design) and Visual Arts at school are excellent preparation. SACAP (South African Council for the Architectural Profession) registration is required to practise professionally.",
+      "bursaries": ["NSFAS", "Department of Public Works Bursaries", "SACAP Bursaries", "Paragon Architects Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 36, "required_subjects": "Mathematics L5", "deadline": "31 July", "notes": "Best architecture school in Africa. Portfolio review required. Highly competitive."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 34, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Strong urban design and Johannesburg inner-city focus."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics L5", "deadline": "30 September", "notes": "Large school of the built environment with strong studio culture."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Architecture and Construction Management options available."},
+        {"name": "Nelson Mandela University", "short": "NMU", "min_aps": 26, "required_subjects": "Mathematics L4", "deadline": "30 September", "notes": "Good option for Eastern Cape learners. Practical studio-focused programme."}
+      ]
+    },
+    "environmental_scientist": {
+      "qualification": "BSc Environmental Science or BSc Environmental Management",
+      "duration": "3 to 4 years",
+      "job_roles": ["Environmental Scientist", "Conservation Officer", "Climate Analyst", "Environmental Impact Assessor", "Sustainability Consultant", "Park Ranger"],
+      "salary": {"entry": "R250,000", "mid": "R450,000", "senior": "R700,000+"},
+      "application_tips": "South Africa is one of the world's most biodiverse countries — environmental scientists are urgently needed. The green economy is growing fast and climate change roles are among the most in-demand careers of the coming decade. Geography and Life Sciences at school are excellent foundations.",
+      "bursaries": ["Department of Environment Bursaries", "NSFAS", "WWF Bursaries", "SANParks Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 34, "required_subjects": "Life Sciences L5, Mathematics L5", "deadline": "31 July", "notes": "Top environmental research in Africa. Strong ecology and marine science focus."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 30, "required_subjects": "Life Sciences L5, Mathematics L4", "deadline": "31 August", "notes": "Excellent conservation and sustainability programmes."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Life Sciences L5", "deadline": "30 September", "notes": "Adjacent to Kruger — strong wildlife and field research focus."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Environmental management programme with urban ecology focus."},
+        {"name": "University of the Free State", "short": "UFS", "min_aps": 24, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Strong semi-arid and agricultural environment focus."}
+      ]
+    },
+    "agricultural_scientist": {
+      "qualification": "BSc Agriculture or BAgric",
+      "duration": "4 years",
+      "job_roles": ["Agricultural Scientist", "Agronomist", "Farm Manager", "Food Scientist", "Agricultural Extension Officer", "Crop Specialist"],
+      "salary": {"entry": "R250,000", "mid": "R450,000", "senior": "R700,000+"},
+      "application_tips": "South Africa is one of Africa's most important agricultural economies and food security is a national priority. DAFF (Department of Agriculture, Forestry and Fisheries) bursaries are widely available and include job placement. Agricultural Sciences or Life Sciences at school gives you the best preparation.",
+      "bursaries": ["DAFF Bursaries (Department of Agriculture)", "NSFAS", "Afgri Bursaries", "Grain SA Bursaries"],
+      "universities": [
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 28, "required_subjects": "Life Sciences L5, Mathematics L4", "deadline": "30 September", "notes": "Top agriculture faculty in Africa with cutting-edge research facilities."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 28, "required_subjects": "Life Sciences L5, Mathematics L4", "deadline": "31 August", "notes": "Strong in viticulture, food science and agribusiness."},
+        {"name": "University of the Free State", "short": "UFS", "min_aps": 24, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Central SA agricultural heartland. Strong crop science programmes."},
+        {"name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "Agricultural Sciences L4 or Life Sciences L4", "deadline": "30 September", "notes": "Best option for northern region learners. Tropical and subtropical farming focus."},
+        {"name": "University of Fort Hare", "short": "UFH", "min_aps": 20, "required_subjects": "Life Sciences L4", "deadline": "30 September", "notes": "Focus on smallholder and communal farming systems."}
+      ]
+    },
+    "biomedical_scientist": {
+      "qualification": "BSc Biomedical Science or BSc Medical Laboratory Science",
+      "duration": "3 to 4 years",
+      "job_roles": ["Biomedical Scientist", "Medical Laboratory Scientist", "Clinical Researcher", "Pathology Technologist", "Pharmaceutical Researcher"],
+      "salary": {"entry": "R300,000", "mid": "R520,000", "senior": "R800,000+"},
+      "application_tips": "Biomedical Science feeds directly into medical diagnostics, pharmaceutical research and hospital laboratories. HPCSA registration as a Medical Technologist is required for laboratory practice. This career sits at the exciting intersection of science and technology.",
+      "bursaries": ["MRC (Medical Research Council) Bursaries", "NSFAS", "NRF Postgraduate Bursaries", "Aspen Pharmacare Bursaries"],
+      "universities": [
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L5", "deadline": "30 September", "notes": "Top biomedical science faculty with world-class laboratory facilities."},
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 34, "required_subjects": "Mathematics L6, Physical Sciences L5, Life Sciences L5", "deadline": "31 July", "notes": "World-class medical research environment and affiliated hospitals."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 32, "required_subjects": "Mathematics L5, Physical Sciences L5, Life Sciences L5", "deadline": "31 August", "notes": "Strong pharmaceutical and biotech research output."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 26, "required_subjects": "Mathematics L4, Life Sciences L4", "deadline": "30 September", "notes": "Applied biomedical sciences programme within the Faculty of Health Sciences."},
+        {"name": "University of the Free State", "short": "UFS", "min_aps": 26, "required_subjects": "Mathematics L4, Life Sciences L5", "deadline": "30 September", "notes": "Medical laboratory science pathway available."}
+      ]
+    },
+    "teacher": {
+      "qualification": "BEd — Bachelor of Education (4-year professional degree)",
+      "duration": "4 years",
+      "job_roles": ["Foundation Phase Teacher", "Senior Phase Teacher", "FET Phase Teacher", "School Principal", "Curriculum Developer", "Educational Psychologist"],
+      "salary": {"entry": "R180,000", "mid": "R320,000", "senior": "R500,000+"},
+      "application_tips": "The Funza Lushaka Bursary covers your full degree costs AND guarantees you a government teaching post after graduation — it is one of the best deals available to any South African student. Apply for it the same time you apply to university. South Africa urgently needs more teachers, especially in Mathematics, Science and Technology.",
+      "bursaries": ["Funza Lushaka Bursary (covers ALL costs + job guarantee)", "NSFAS", "Provincial Education Department Bursaries"],
+      "universities": [
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 26, "required_subjects": "English L5", "deadline": "30 September", "notes": "Top BEd programme in SA. Excellent Funza Lushaka placement record."},
+        {"name": "Stellenbosch University", "short": "SU", "min_aps": 28, "required_subjects": "English or Afrikaans L5", "deadline": "31 August", "notes": "Strong teacher training with excellent school placement networks."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 24, "required_subjects": "English L4", "deadline": "30 September", "notes": "Large education faculty with strong Gauteng school placement programme."},
+        {"name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "English L4", "deadline": "30 September", "notes": "Ideal for rural and Limpopo learners. Strong community schools focus."},
+        {"name": "UNISA", "short": "UNISA", "min_aps": 20, "required_subjects": "English L4", "deadline": "31 October", "notes": "Part-time BEd — ideal for teaching assistants wanting to qualify while working."}
+      ]
+    },
+    "social_worker": {
+      "qualification": "BSW — Bachelor of Social Work",
+      "duration": "4 years",
+      "job_roles": ["Social Worker", "Child Protection Officer", "Community Development Officer", "NGO Programme Manager", "Probation Officer", "School Social Worker"],
+      "salary": {"entry": "R160,000", "mid": "R280,000", "senior": "R420,000+"},
+      "application_tips": "Social Work is a protected title — you must register with the South African Council for Social Service Professions (SACSSP) before practising. The Department of Social Development actively recruits and offers bursaries specifically for this field. This is one of the most urgently needed professions in South Africa.",
+      "bursaries": ["Department of Social Development Bursaries (widely available)", "NSFAS", "Child Welfare SA Bursaries", "UNICEF SA Bursaries"],
+      "universities": [
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 24, "required_subjects": "English L4", "deadline": "30 September", "notes": "Strong government and NGO placement network."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Good community social work programme with Gauteng DSD placements."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Community development and rural social work focus."},
+        {"name": "University of the Western Cape", "short": "UWC", "min_aps": 22, "required_subjects": "English L4", "deadline": "30 September", "notes": "Long history of community-based social work practice."},
+        {"name": "University of Limpopo", "short": "UL", "min_aps": 20, "required_subjects": "English L4", "deadline": "30 September", "notes": "Ideal for rural community-focused practice in the north."}
+      ]
+    },
+    "lawyer": {
+      "qualification": "LLB — Bachelor of Laws",
+      "duration": "4 years (at most SA universities)",
+      "job_roles": ["Attorney", "Advocate", "Prosecutor", "Magistrate", "Legal Advisor", "Human Rights Lawyer", "Corporate Counsel"],
+      "salary": {"entry": "R300,000", "mid": "R700,000", "senior": "R1,500,000+"},
+      "application_tips": "After your LLB you must complete 2 years of articles of clerkship (for attorneys) or pupillage at the Bar (for advocates) before you can practise. Strong English reading and writing are more important than any specific subject. Critical thinking, confidence and communication skills set great lawyers apart.",
+      "bursaries": ["NSFAS", "Legal Aid South Africa Bursaries", "Law Society Bursaries", "Webber Wentzel Bursaries"],
+      "universities": [
+        {"name": "University of Cape Town", "short": "UCT", "min_aps": 35, "required_subjects": "English Home Language L5", "deadline": "31 July", "notes": "Top-ranked law school in Africa. Strong human rights and commercial law focus."},
+        {"name": "University of the Witwatersrand", "short": "Wits", "min_aps": 33, "required_subjects": "English L5", "deadline": "30 September", "notes": "Strong commercial law, constitutional law and social justice programmes."},
+        {"name": "University of Pretoria", "short": "UP", "min_aps": 30, "required_subjects": "English L5", "deadline": "30 September", "notes": "Large law faculty with many specialisations including mercantile and criminal law."},
+        {"name": "University of Johannesburg", "short": "UJ", "min_aps": 28, "required_subjects": "English L4", "deadline": "30 September", "notes": "Good access pathway. Strong Johannesburg legal sector placements."},
+        {"name": "University of KwaZulu-Natal", "short": "UKZN", "min_aps": 28, "required_subjects": "English L5", "deadline": "30 September", "notes": "Strong social justice, public law and community legal practice."}
       ]
     }
   }
