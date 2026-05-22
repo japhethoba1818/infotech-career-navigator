@@ -196,18 +196,19 @@ def show():
                             </div>
                         </div>
                     </div>
-                    <div style="margin-top:10px;display:flex;
-                                flex-wrap:wrap;gap:12px;font-size:0.82rem">
+                    <div style="margin-top:10px;font-size:0.82rem">
                         <span>
-                            📚 <strong>Required:</strong> {uni['required_subjects']}
-                        </span>
-                        <span>
-                            📅 <strong>Deadline:</strong> {uni['deadline']}
+                            📚 <strong>Required subjects:</strong> {uni['required_subjects']}
                         </span>
                     </div>
                     <div style="margin-top:6px;font-size:0.82rem;
                                 color:#6b7280;font-style:italic">
                         💡 {uni['notes']}
+                    </div>
+                    <div style="margin-top:6px;font-size:0.78rem;
+                                color:#f59e0b;font-weight:500">
+                        📅 Always verify current application dates directly
+                        on the university's official website.
                     </div>
                 </div>
                 """, unsafe_allow_html=True)

@@ -8,11 +8,11 @@
     "ENT": "Entrepreneurial"
   },
   "type_descriptions": {
-    "ANL": "You love solving problems, working with data, and thinking deeply before acting. You ask 'why' and 'how' more than most people.",
+    "ANL": "You love solving problems, working with data, and thinking deeply before acting. You ask why and how more than most people.",
     "LDR": "You are a natural at guiding people, making decisions under pressure, and taking responsibility when it counts.",
     "CRE": "You think outside the box, express yourself boldly, and see possibilities where others see walls.",
     "HLP": "You are driven by purpose. You care deeply about people and feel most alive when you are making a real difference in someone's life.",
-    "TEC": "You enjoy building, fixing and understanding exactly how systems and technology work. You want to make things that function.",
+    "TEC": "You enjoy building, fixing and understanding exactly how systems and processes work. You want to make things that function.",
     "ENT": "You are ambitious, spot opportunities others miss, and feel the pull to build something of your own from nothing."
   },
   "type_icons": {
@@ -26,82 +26,178 @@
   "questions": [
     {
       "id": 1,
-      "question": "What fires you up most about your future?",
+      "question": "When you imagine your ideal future working day, what are you doing?",
       "options": [
-        { "text": "Solving complex problems and understanding exactly how things work", "scores": {"ANL": 3} },
-        { "text": "Building technology, apps, or systems that actually do something", "scores": {"TEC": 3} },
-        { "text": "Starting a business and being my own boss one day", "scores": {"ENT": 3} },
-        { "text": "Leading a team and making decisions that matter", "scores": {"LDR": 3} }
+        {
+          "text": "Researching, analysing information and solving complex problems",
+          "scores": {"ANL": 3}
+        },
+        {
+          "text": "Building, engineering or designing systems that actually work",
+          "scores": {"TEC": 3}
+        },
+        {
+          "text": "Running my own venture and making high-stakes decisions",
+          "scores": {"ENT": 3}
+        },
+        {
+          "text": "Leading a team and driving a project toward a meaningful goal",
+          "scores": {"LDR": 3}
+        }
       ]
     },
     {
       "id": 2,
-      "question": "In a group project, people naturally see you as...",
+      "question": "Which of these best describes how your mind naturally works?",
       "options": [
-        { "text": "The researcher — you dig deep and bring the facts", "scores": {"ANL": 3} },
-        { "text": "The creative one — your ideas and designs stand out", "scores": {"CRE": 3} },
-        { "text": "The leader — you naturally take charge and organise", "scores": {"LDR": 3} },
-        { "text": "The supporter — you look after everyone and keep morale high", "scores": {"HLP": 3} }
+        {
+          "text": "Logically — I reason through problems step by step using evidence",
+          "scores": {"ANL": 3}
+        },
+        {
+          "text": "Creatively — I imagine new approaches and see things differently",
+          "scores": {"CRE": 3}
+        },
+        {
+          "text": "Strategically — I think about goals, plans and how to move people forward",
+          "scores": {"LDR": 3}
+        },
+        {
+          "text": "Empathetically — I tune into how others feel and what they need",
+          "scores": {"HLP": 3}
+        }
       ]
     },
     {
       "id": 3,
-      "question": "Which of these job descriptions sounds most like YOU?",
+      "question": "Which type of activity gives you the most energy?",
       "options": [
-        { "text": "Software developer, IT engineer, cybersecurity or data scientist", "scores": {"TEC": 3} },
-        { "text": "Doctor, nurse, teacher, social worker or counsellor", "scores": {"HLP": 3} },
-        { "text": "Graphic designer, filmmaker, musician or architect", "scores": {"CRE": 3} },
-        { "text": "CEO, startup founder, investor or business consultant", "scores": {"ENT": 3} }
+        {
+          "text": "Hands-on technical work — figuring out how things work and making them better",
+          "scores": {"TEC": 3}
+        },
+        {
+          "text": "Spotting a gap in the market and figuring out how to fill it profitably",
+          "scores": {"ENT": 3}
+        },
+        {
+          "text": "Making or expressing something original — visual, written or performed",
+          "scores": {"CRE": 3}
+        },
+        {
+          "text": "Supporting, guiding or caring for someone through a difficult situation",
+          "scores": {"HLP": 3}
+        }
       ]
     },
     {
       "id": 4,
-      "question": "When you face a really hard problem, what do you do?",
+      "question": "When your group faces a really hard challenge, what do you naturally do?",
       "options": [
-        { "text": "Break it into pieces, research thoroughly, and think it through logically", "scores": {"ANL": 3} },
-        { "text": "Try something creative and unusual that others haven't thought of", "scores": {"CRE": 3} },
-        { "text": "Bring people together and lead everyone toward a solution", "scores": {"LDR": 3} },
-        { "text": "Think about who is affected most and how to help them first", "scores": {"HLP": 3} }
+        {
+          "text": "Dig into the available information until you fully understand the problem",
+          "scores": {"ANL": 3}
+        },
+        {
+          "text": "Suggest a creative or unexpected angle that others have not considered",
+          "scores": {"CRE": 3}
+        },
+        {
+          "text": "Take charge, assign roles and steer the group toward a clear solution",
+          "scores": {"LDR": 3}
+        },
+        {
+          "text": "Make sure everyone is heard and keep focus on the human impact",
+          "scores": {"HLP": 3}
+        }
       ]
     },
     {
       "id": 5,
-      "question": "Your ideal workspace looks like...",
+      "question": "Which of these environments would you thrive in the most?",
       "options": [
-        { "text": "A quiet space with data, books, research and deep thinking", "scores": {"ANL": 3} },
-        { "text": "A tech lab with screens, code, machines and smart systems", "scores": {"TEC": 3} },
-        { "text": "A buzzing office where I run projects and drive results", "scores": {"ENT": 3} },
-        { "text": "A creative studio full of design, colour and expression", "scores": {"CRE": 3} }
+        {
+          "text": "A quiet research or data-focused workspace with room to think deeply",
+          "scores": {"ANL": 3}
+        },
+        {
+          "text": "A technical lab, engineering floor or digital development environment",
+          "scores": {"TEC": 3}
+        },
+        {
+          "text": "A fast-moving business environment where every day brings new decisions",
+          "scores": {"ENT": 3}
+        },
+        {
+          "text": "A creative studio, media space or design-driven workplace",
+          "scores": {"CRE": 3}
+        }
       ]
     },
     {
       "id": 6,
-      "question": "In 10 years, which outcome would make you the proudest?",
+      "question": "What kind of impact do you most want your career to have?",
       "options": [
-        { "text": "I made a scientific discovery or solved a problem that baffled experts", "scores": {"ANL": 3} },
-        { "text": "I built technology that millions of people use every day", "scores": {"TEC": 3} },
-        { "text": "I am leading a respected organisation that is changing South Africa", "scores": {"LDR": 3} },
-        { "text": "I have directly helped hundreds of people live better lives", "scores": {"HLP": 3} }
+        {
+          "text": "Creating or improving systems and processes that make things work better",
+          "scores": {"TEC": 3}
+        },
+        {
+          "text": "Generating economic value, creating jobs and building lasting wealth",
+          "scores": {"ENT": 3}
+        },
+        {
+          "text": "Leading an institution or movement that influences many people",
+          "scores": {"LDR": 3}
+        },
+        {
+          "text": "Directly improving the health, safety or wellbeing of individuals",
+          "scores": {"HLP": 3}
+        }
       ]
     },
     {
       "id": 7,
-      "question": "Your closest friends would describe you as...",
+      "question": "How would your closest friends most honestly describe you?",
       "options": [
-        { "text": "Deeply logical — always asking why and how, never accepting surface answers", "scores": {"ANL": 3} },
-        { "text": "Ambitious and driven — you always push for more and hate losing", "scores": {"ENT": 3} },
-        { "text": "Warm and caring — someone always comes to you when they are struggling", "scores": {"HLP": 3} },
-        { "text": "Bold and creative — you do things differently and love expressing yourself", "scores": {"CRE": 3} }
+        {
+          "text": "Deeply curious — always asking questions and needing to understand things fully",
+          "scores": {"ANL": 3}
+        },
+        {
+          "text": "Ambitious and driven — always pushing for the next level",
+          "scores": {"ENT": 3}
+        },
+        {
+          "text": "Warm and dependable — the one people turn to when they need genuine support",
+          "scores": {"HLP": 3}
+        },
+        {
+          "text": "Bold and expressive — always doing or saying something original",
+          "scores": {"CRE": 3}
+        }
       ]
     },
     {
       "id": 8,
-      "question": "Which of these would make your family the proudest?",
+      "question": "Which of these achievements would make you the most proud?",
       "options": [
-        { "text": "You engineer or invent something the whole country benefits from", "scores": {"TEC": 3} },
-        { "text": "You build a successful company that employs people in your community", "scores": {"ENT": 3} },
-        { "text": "You become a respected leader — principal, director or government official", "scores": {"LDR": 3} },
-        { "text": "You heal, teach or transform lives as a doctor, nurse or social worker", "scores": {"HLP": 3} }
+        {
+          "text": "Building a system or tool that thousands of people depend on every day",
+          "scores": {"TEC": 3}
+        },
+        {
+          "text": "Producing a creative work that genuinely moves or inspires people",
+          "scores": {"CRE": 3}
+        },
+        {
+          "text": "Being a respected leader who shaped the direction of an organisation",
+          "scores": {"LDR": 3}
+        },
+        {
+          "text": "Spending a career healing, teaching or transforming lives at a personal level",
+          "scores": {"HLP": 3}
+        }
       ]
     }
   ]

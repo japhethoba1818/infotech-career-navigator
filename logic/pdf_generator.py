@@ -391,8 +391,7 @@ def _draw_page2(c, data: dict):
         c.drawString(ux + 3*mm, body_y - 5*mm, uni["short"])
         c.setFillColor(C_LIGHT)
         c.setFont("Helvetica", 7)
-        c.drawString(ux + 3*mm, body_y - 9*mm, f"Min APS: {uni['min_aps']}  ·  Deadline: {uni['deadline']}")
-        c.setFillColor(color)
+        c.drawString(ux + 3*mm, body_y - 9*mm, f"Min APS: {uni['min_aps']}  ·  Verify deadline on university website")        c.setFillColor(color)
         c.setFont("Helvetica-Bold", 7)
         c.drawRightString(ux + col_w - 3*mm, body_y - 5*mm, status)
 
@@ -438,8 +437,7 @@ def _draw_page2(c, data: dict):
     checklist = [
         ("Research your top 3 universities and their requirements", False),
         ("Register for the National Benchmark Test (NBT) if needed", False),
-        ("Apply before September 30 (most university deadline)", False),
-        (f"Reach your APS target of {data['target_aps']} by end of Grade 12", False),
+        ("Verify current deadlines directly on each university's website", False),        (f"Reach your APS target of {data['target_aps']} by end of Grade 12", False),
         ("Apply for bursaries (NSFAS opens March each year)", False),
         ("Request a school reference letter from your principal", False),
     ]
