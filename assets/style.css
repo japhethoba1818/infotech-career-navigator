@@ -101,3 +101,25 @@ html, body, [class*="css"] {
 @media (max-width: 600px) {
     .hero-title { font-size: 2rem; }
 }
+/* ── Loading screen improvement ───────────────────────────────────────────── */
+/* Makes the Streamlit spinner feel more branded */
+div[data-testid="stSpinner"] > div {
+    border-top-color: #667eea !important;
+}
+
+/* Smooth page transitions */
+section[data-testid="stSidebar"],
+.main .block-container {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Image and media optimization */
+img {
+    max-width: 100%;
+    height: auto;
+}

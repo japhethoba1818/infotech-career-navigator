@@ -74,10 +74,18 @@ def show():
             st.rerun()
 
     # ── Footer ───────────────────────────────────────────────────────────────
-    st.markdown("<br><br>", unsafe_allow_html=True)
-    st.markdown(
-        '<p style="text-align:center;color:#9ca3af;font-size:0.8rem">'
-        '🔒 No data stored · Free to use · Made for township & rural learners'
-        '</p>',
-        unsafe_allow_html=True,
-    )
+col_a, col_b = st.columns(2)
+
+with col_a:
+        st.markdown(
+            '<p style="text-align:center;color:#9ca3af;font-size:0.78rem;'
+            'padding-top:0.5rem">'
+            '🔒 Free · No data stored · Built for SA learners'
+            '</p>',
+            unsafe_allow_html=True,
+        )
+
+with col_b:
+        if st.button("📊 Share Feedback", use_container_width=True):
+            st.session_state.screen = "feedback"
+            st.rerun()
