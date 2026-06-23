@@ -41,7 +41,7 @@ def build_pdf_data() -> dict:
     top_pers_desc = descs.get(top_pers_code, "")
 
     aps           = st.session_state.get("aps_score", 0)
-    target_aps    = min(aps + 5, 42)   # motivational target
+    target_aps    = min(aps + 5, 42)
 
     primary_id    = primary.get("id", "")
     qualification = guidance.get(primary_id, {}).get("qualification", "your qualification")
@@ -178,7 +178,6 @@ def show():
     # ── Generate and download ─────────────────────────────────────────────────
     st.markdown("### ⬇️ Download Your PDF")
 
-    # Generate PDF on page load (cache in session to avoid regenerating)
     if "pdf_bytes" not in st.session_state or st.session_state.pdf_bytes is None:
         with st.spinner("Building your personalised roadmap PDF..."):
             pdf_data  = build_pdf_data()
@@ -209,6 +208,59 @@ def show():
 
     st.markdown("<br>", unsafe_allow_html=True)
 
+    # ── NEW: Save to Supabase (runs once silently per session) ────────────────
+    if st.session_state.get("learner_id") is None:
+        from db_service import save_learner_result
+        learner_id = save_learner_result(dict(st.session_state))
+        if learner_id:
+            st.session_state.learner_id = learner_id
+
+    # ── NEW: Study Companion bridge ───────────────────────────────────────────
+    st.markdown("""
+    <div style="background:linear-gradient(135deg,#667eea15,#764ba215);
+                border:2px solid #667eea;border-radius:16px;
+                padding:1.5rem;text-align:center;margin-bottom:1rem">
+        <div style="font-size:2rem;margin-bottom:0.5rem">📚</div>
+        <div style="font-weight:800;color:#1f2937;font-size:1.1rem;margin-bottom:0.4rem">
+            Ready to achieve this career?
+        </div>
+        <div style="color:#6b7280;font-size:0.9rem">
+            Study Companion will help you build the academic foundation to get there.
+            Track your subjects, prepare for exams and stay on target.
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # ── UPDATE THIS URL when Study Companion is live ──────────────────────────
+    STUDY_COMPANION_URL = "https://infotech-study-companion.streamlit.app/Login"
+
+    if st.button(
+        "Continue to Study Companion →",
+        type="primary",
+        use_container_width=True,
+        key="study_companion_btn",
+    ):
+        # Option A — Simple redirect (active now)
+        # Learner arrives at Study Companion and enters their name manually
+        st.markdown(
+            f'<meta http-equiv="refresh" content="0; url={STUDY_COMPANION_URL}">',
+            unsafe_allow_html=True,
+        )
+
+        # Option B — Token deep link (uncomment when Study Companion supports it)
+        # from db_service import create_study_companion_transfer
+        # learner_id = st.session_state.get("learner_id")
+        # if learner_id:
+        #     token = create_study_companion_transfer(learner_id, dict(st.session_state))
+        #     if token:
+        #         deep_link = f"{STUDY_COMPANION_URL}?transfer={token}"
+        #         st.markdown(
+        #             f'<meta http-equiv="refresh" content="0; url={deep_link}">',
+        #             unsafe_allow_html=True,
+        #         )
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
     # ── Sharing tip ───────────────────────────────────────────────────────────
     st.markdown("""
     <div class="card" style="text-align:center;padding:1.2rem">
@@ -235,7 +287,6 @@ def show():
 
     with col_restart:
         if st.button("🔄  Start a New Journey", use_container_width=True):
-            # Clear all session state and restart
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
             st.rerun()

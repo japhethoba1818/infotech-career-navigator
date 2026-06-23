@@ -41,6 +41,7 @@ defaults = {
     "top_careers":             [],
     "chosen_careers":          [],
     "chosen_careers_indices":  [],
+    "learner_id":              None,
     "pdf_bytes":               None,
 }
 

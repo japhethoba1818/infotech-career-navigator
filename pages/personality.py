@@ -36,7 +36,7 @@ def score_answers(questions: list, answers: dict) -> dict:
         qid = q["id"]
         if qid not in answers:
             continue
-        chosen_index = answers[qid]
+        chosen_index  = answers[qid]
         option_scores = q["options"][chosen_index]["scores"]
         for code, pts in option_scores.items():
             totals[code] = totals.get(code, 0) + pts
@@ -49,6 +49,80 @@ def get_top_types(scores: dict, top_n: int = 3) -> list:
     return sorted(scores, key=scores.get, reverse=True)[:top_n]
 
 
+def render_question_card(q: dict, qid: int, options: list) -> None:
+    """
+    Render a single question as styled scenario cards.
+    Replaces st.radio() — scoring logic stays identical.
+    """
+    prev          = st.session_state.quiz_answers.get(qid, None)
+    answered      = prev is not None
+
+    # Question header card
+    st.markdown(f"""
+    <div style="background:linear-gradient(135deg,#667eea15,#764ba215);
+                border-left:4px solid #667eea;border-radius:12px;
+                padding:1rem 1.2rem;margin-bottom:0.75rem">
+        <div style="font-size:0.75rem;color:#667eea;font-weight:700;
+                    text-transform:uppercase;letter-spacing:0.05em;
+                    margin-bottom:0.3rem">
+            Question {qid} of {len(st.session_state.get("_questions", []))}
+        </div>
+        <p style="font-weight:700;margin:0;color:#1f2937;font-size:1rem;
+                  line-height:1.5">
+            {q['question']}
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Option cards — two per row for mobile friendliness
+    option_pairs = [options[i:i+2] for i in range(0, len(options), 2)]
+
+    for pair_idx, pair in enumerate(option_pairs):
+        cols = st.columns(len(pair))
+        for col_idx, option_text in enumerate(pair):
+            global_idx    = pair_idx * 2 + col_idx
+            is_selected   = prev == global_idx
+
+            border_color  = "#667eea" if is_selected else "#e5e7eb"
+            bg_color      = "#ede9fe" if is_selected else "#ffffff"
+            check_icon    = "✓ " if is_selected else ""
+            text_color    = "#4c1d95" if is_selected else "#374151"
+            shadow        = "0 0 0 3px #667eea33" if is_selected else "none"
+
+            with cols[col_idx]:
+                # Styled card as visual context
+                st.markdown(f"""
+                <div style="
+                    border:2px solid {border_color};
+                    background:{bg_color};
+                    border-radius:12px;
+                    padding:0.85rem 1rem;
+                    margin-bottom:4px;
+                    box-shadow:{shadow};
+                    min-height:80px;
+                    display:flex;
+                    align-items:center;
+                ">
+                    <span style="color:{text_color};font-size:0.88rem;
+                                 line-height:1.5;font-weight:{'600' if is_selected else '400'}">
+                        {check_icon}{option_text}
+                    </span>
+                </div>
+                """, unsafe_allow_html=True)
+
+                # Invisible select button sits under each card
+                if st.button(
+                    "Select" if not is_selected else "✓ Selected",
+                    key=f"q{qid}_opt{global_idx}",
+                    use_container_width=True,
+                    type="primary" if is_selected else "secondary",
+                ):
+                    st.session_state.quiz_answers[qid] = global_idx
+                    st.rerun()
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+
 # ── Main screen ────────────────────────────────────────────────────────────────
 
 def show():
@@ -59,6 +133,9 @@ def show():
     icons     = data["type_icons"]
     descs     = data["type_descriptions"]
     labels    = data["personality_types"]
+
+    # Store questions in session so render_question_card can access total count
+    st.session_state["_questions"] = questions
 
     name = st.session_state.learner_name.split()[0]
 
@@ -80,52 +157,44 @@ def show():
     total_q  = len(questions)
     pct      = int((answered / total_q) * 100)
 
+    # Motivational label that changes as learner progresses
+    if pct == 0:
+        progress_label = "Let's find out who you are 🚀"
+    elif pct < 40:
+        progress_label = "Good start, keep going! 💪"
+    elif pct < 75:
+        progress_label = "You're halfway there! 🔥"
+    elif pct < 100:
+        progress_label = "Almost done, one more push! ⚡"
+    else:
+        progress_label = "All done — let's see your results! 🎉"
+
     st.markdown(f"""
     <div style="margin-bottom:1.5rem">
         <div style="display:flex;justify-content:space-between;
                     font-size:0.85rem;color:#6b7280;margin-bottom:4px">
-            <span>Questions answered</span>
-            <span><strong>{answered}</strong> / {total_q}</span>
+            <span>{progress_label}</span>
+            <span><strong>{answered}</strong> / {total_q} answered</span>
         </div>
-        <div style="background:#e5e7eb;border-radius:99px;height:8px">
+        <div style="background:#e5e7eb;border-radius:99px;height:10px">
             <div style="background:linear-gradient(135deg,#667eea,#764ba2);
-                        width:{pct}%;height:8px;border-radius:99px;
+                        width:{pct}%;height:10px;border-radius:99px;
                         transition:width 0.3s ease">
             </div>
+        </div>
+        <div style="display:flex;justify-content:flex-end;
+                    font-size:0.78rem;color:#667eea;
+                    font-weight:600;margin-top:4px">
+            {pct}% complete
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    # ── Questions ─────────────────────────────────────────────────────────────
+    # ── Questions rendered as scenario cards ──────────────────────────────────
     for q in questions:
         qid     = q["id"]
         options = [opt["text"] for opt in q["options"]]
-
-        # Work out what was previously selected (if anything)
-        prev = st.session_state.quiz_answers.get(qid, None)
-        prev_text = options[prev] if prev is not None else None
-
-        st.markdown(f"""
-        <div class="card">
-            <p style="font-weight:600;margin:0 0 0.75rem 0;color:#1f2937">
-                {qid}. {q['question']}
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
-
-        chosen = st.radio(
-            label=f"q{qid}",
-            options=options,
-            index=prev if prev is not None else None,
-            key=f"radio_{qid}",
-            label_visibility="collapsed",
-        )
-
-        # Save answer as index immediately
-        if chosen:
-            st.session_state.quiz_answers[qid] = options.index(chosen)
-
-        st.markdown("<br>", unsafe_allow_html=True)
+        render_question_card(q, qid, options)
 
     # ── Live personality preview ───────────────────────────────────────────────
     answered_now = len(st.session_state.quiz_answers)
@@ -156,6 +225,22 @@ def show():
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
+
+    # ── Completion celebration ─────────────────────────────────────────────────
+    if answered_now == total_q:
+        st.markdown("""
+        <div style="background:linear-gradient(135deg,#10b98115,#059e6f15);
+                    border:2px solid #10b981;border-radius:16px;
+                    padding:1.2rem;text-align:center;margin:1rem 0">
+            <div style="font-size:2rem;margin-bottom:0.4rem">🎉</div>
+            <div style="font-weight:800;color:#065f46;font-size:1rem">
+                All questions answered!
+            </div>
+            <div style="color:#6b7280;font-size:0.88rem;margin-top:4px">
+                Click below to see your career matches.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
